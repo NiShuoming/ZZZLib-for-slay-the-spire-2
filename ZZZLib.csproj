@@ -1,0 +1,29 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <PlatformTarget>x64</PlatformTarget>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<Target Name="CopyCustomOutput" AfterTargets="Build">
+		<ItemGroup>
+			<OutputDlls Include="$(OutputPath)\$(AssemblyName).dll" />
+			<OutputDlls Include="$(OutputPath)\$(AssemblyName).pdb" />
+		</ItemGroup>
+
+		<MakeDir Directories="$(MSBuildProjectDirectory)\build" />
+		<Copy SourceFiles="@(OutputDlls)" DestinationFolder="$(MSBuildProjectDirectory)\build" />
+	</Target>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>addons\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseLib">
+      <HintPath>addons\BaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>addons\sts2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

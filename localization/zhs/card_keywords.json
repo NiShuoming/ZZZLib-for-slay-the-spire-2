@@ -1,0 +1,32 @@
+{
+  "ZZZLIB-PARTNER.title": "伙伴",
+  "ZZZLIB-PARTNER.description": "受到伤害时，将[gold]抽牌堆[/gold]中的一张[gold]伙伴[/gold]牌放入你的[gold]手牌[/gold].",
+
+  "ZZZLIB-DERIVE.title": "派生",
+  "ZZZLIB-DERIVE.description": "根据这张牌在本回合打出的次序，获得不同效果。",
+
+  "ZZZLIB-STANCE.title": "架势",
+  "ZZZLIB-STANCE.description": "每打出一张牌，切换一次效果。",
+
+  "ZZZLIB-SECOND ENERGY.title": "第二能量",
+  "ZZZLIB-SECOND ENERGY.description": "角色的特殊资源。",
+
+  "ZZZLIB-ULTIMATE.title": "终结技",
+  "ZZZLIB-ULTIMATE.description": "每个角色都有一张[pink]终结技[/pink]牌，触发[pink]终结技[/pink]时，可以触发[pink]终结技[/pink]牌最后一个效果。",
+
+  "ZZZLIB-ANOMALY.title": "异常伤害",
+  "ZZZLIB-ANOMALY.description": "伤害受到[gold]异常精通[/gold]影响。",
+
+  "ZZZLIB-ABLOOM.title": "异放",
+  "ZZZLIB-ABLOOM.description": "[purple]属性异常[/purple]。\n目标每有1种[gold]负面效果[/gold]，造成[blue]4[/blue]点[purple]异常伤害[/purple]。",
+
+  "ZZZLIB-WINDBLOOM.title": "风化",
+  "ZZZLIB-WINDBLOOM.description": "[purple]属性异常[/purple]。\n如果目标有负面效果，对所有敌人造成[blue]2[/blue]点[purple]异常伤害[/purple]，目标每有1种[gold]负面效果[/gold]额外造成[blue]2[/blue]点伤害。",
+
+  "ZZZLIB-DISORDER.title": "紊乱",
+  "ZZZLIB-DISORDER.description": "[purple]属性异常[/purple]。\n对目标造成[blue]8[/blue]点[purple]异常伤害[/purple]。"
+
+
+
+
+}

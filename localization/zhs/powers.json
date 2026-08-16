@@ -1,0 +1,77 @@
+{
+  "ANOMALY_PROFICIENCY.title": "异常精通",
+  "ANOMALY_PROFICIENCY.description": "提高[purple]属性异常[/purple]造成的伤害。",
+  "ANOMALY_PROFICIENCY.smartDescription": "提高[purple]属性异常[/purple]造成的伤害{Amount}点。",
+
+  "BUNNY_BAND_POWER.title": "兔能环",
+  "BUNNY_BAND_POWER.description": "[gold]格挡[/gold]超过10时，获得[gold]活力[/gold]。",
+  "BUNNY_BAND_POWER.smartDescription": "[gold]格挡[/gold]超过10时，获得{Amount}层[gold]活力[/gold]。",
+  "BURNING_ANOMALY_POWER.title": "燃烧",
+  "BURNING_ANOMALY_POWER.description": "回合结束时，受到[purple]异常伤害[/purple]。",
+  "BURNING_ANOMALY_POWER.smartDescription": "回合结束时，受到{Amount}[purple]异常伤害[/purple]。",
+
+  "CHEER_ON.title": "加油！",
+  "CHEER_ON.description": "获得[blue]3[/blue][gold]力量[/gold]。",
+  "CHEER_ON.smartDescription": "获得[blue]{StrengthPower}[/blue][gold]力量[/gold]。",
+  "CLOUDCLEAVE_RADIANCE_POWER.title": "云霓孤光",
+  "CLOUDCLEAVE_RADIANCE_POWER.description": "对[gold]脆弱[/gold]的敌人额外造成伤害。",
+  "CLOUDCLEAVE_RADIANCE_POWER.smartDescription": "对[gold]脆弱[/gold]的敌人额外造成{Amount}点伤害。",
+
+  "ETHER_VEIL.title": "以太帷幕",
+  "ETHER_VEIL.description": "[gold]以太帷幕[/gold]状态下，[gold]攻击牌[/gold]造成的伤害提高[blue]35%[/blue]。",
+  "ETHER_VEIL.smartDescription": "[gold]以太帷幕[/gold]状态下，[gold]攻击牌[/gold]造成的伤害提高[blue]{DamageA:diff()}%[/blue]。",
+
+  "FEATHERED_FATE_POWER.title": "谶语之誓",
+  "FEATHERED_FATE_POWER.description": "多段攻击段数增加。",
+  "FEATHERED_FATE_POWER.smartDescription": "多段攻击段数加{Amount}。",
+
+  "FRAIL_POWER.description": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。\n如果是敌人，造成的伤害-2。",
+  "FRAIL_POWER.smartDescription": "[blue]{Amount}[/blue]回合内，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。\n如果是敌人，造成的伤害-2。",
+  "FRAIL_POWER.title": "脆弱",
+
+  "JADE_SOUL_FROZEN_HEART_POWER.title": "玉魄冰心",
+  "JADE_SOUL_FROZEN_HEART_POWER.description": "[gold]以太帷幕[/gold]额外增加伤害。",
+  "JADE_SOUL_FROZEN_HEART_POWER.smartDescription": "[gold]以太帷幕[/gold]额外增加{Amount}%伤害。",
+
+  "ODE_OF_RESURRECTED_WINGS_POWER.title": "空羽复归之诗",
+  "ODE_OF_RESURRECTED_WINGS_POWER.description": "抽牌时，多抽1张。",
+  "ODE_OF_RESURRECTED_WINGS_POWER.smartDescription": "抽牌时，多抽{Amount}张。",
+
+  "PARADISE_LOST_POWER.title": "失乐园",
+  "PARADISE_LOST_POWER.description": "触发[purple]属性异常[/purple]时，在1回合获得[gold]力量[/gold]。",
+  "PARADISE_LOST_POWER.smartDescription": "触发[purple]属性异常[/purple]时，在1回合获得{Amount}[gold]力量[/gold]。",
+
+  "SLICE_OF_TIME_POWER.title": "时光切片",
+  "SLICE_OF_TIME_POWER.description": "同一回合打出攻击牌、技能牌、能力牌时，获得能量。",
+  "SLICE_OF_TIME_POWER.smartDescription": "同一回合打出攻击牌、技能牌、能力牌时，获得{Amount:energyIcons()}。",
+
+  "STARLIGHT_ENGINE_POWER.title": "星辉引擎",
+  "STARLIGHT_ENGINE_POWER.description": "每受到1次攻击，下回合获得[gold]力量[/gold]。",
+  "STARLIGHT_ENGINE_POWER.smartDescription": "每受到1次攻击，下回合获得{Amount}层[gold]力量[/gold]。",
+
+  "STEAM_OVEN_POWER.title": "人为刀俎",
+  "STEAM_OVEN_POWER.description": "满能量时，攻击牌会给予目标[gold]脆弱[/gold]。",
+  "STEAM_OVEN_POWER.smartDescription": "满能量时，攻击牌会给予目标{Amount}层[gold]脆弱[/gold]。",
+
+  "SWING_JAZZ_POWER.title": "摇摆爵士",
+  "SWING_JAZZ_POWER.description": "每2回合，获得能量。",
+  "SWING_JAZZ_POWER.smartDescription": "每2回合，获得{Amount:energyIcons()}。",
+
+  "WEEPING_GEMINI_POWER.title": "双生泣星",
+  "WEEPING_GEMINI_POWER.description": "每触发一次[purple]属性异常[/purple]，在本回合获得[gold]异常精通[/gold]。",
+  "WEEPING_GEMINI_POWER.smartDescription": "每触发一次[purple]属性异常[/purple]，在本回合获得1层[gold]异常精通[/gold]，最多获得{Amount}层。",
+
+  "WHITE_WATER_BALLAD_POWER.title": "沧浪行歌",
+  "WHITE_WATER_BALLAD_POWER.description": "获得[gold]以太帷幕[/gold]时，额外获得1层。",
+  "WHITE_WATER_BALLAD_POWER.smartDescription": "获得[gold]以太帷幕[/gold]时，额外获得{Amount}层。",
+
+  "WOODPECKER_ELECTRO_POWER.title": "啄木鸟电音",
+  "WOODPECKER_ELECTRO_POWER.description": "给予的[gold]易伤[/gold]层数增加。",
+  "WOODPECKER_ELECTRO_POWER.smartDescription": "给予的[gold]易伤[/gold]层数增加{Amount}层。"
+
+
+
+
+
+
+}

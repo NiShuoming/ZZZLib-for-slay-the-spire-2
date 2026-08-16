@@ -1,0 +1,44 @@
+{
+  "ZZZLIB-BOX_GALAXY.title": "Box Galaxy",
+  "ZZZLIB-BOX_GALAXY.pages.INITIAL.description": "A shop that sells [gold]W-Engine[/gold], though the clerk always thinks she's selling [gold]toys[/gold].",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.title": "Buy W-Engine",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.description": "Pay {Gold} [gold]Golds[/gold] to choose 1 from {Cards} [gold]W-Engine[/gold] to add to your deck.",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.selectionScreenPrompt": "Choose 1 to add to your deck.",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.description": "The [jitter]pulse[/jitter] of the [gold]W-Engine[/gold] is enhancing your abilities.",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.title": "Recycle",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.description": "Remove 1 non-starter card from your deck and gain {Recycle} Golds.",
+  "ZZZLIB-BOX_GALAXY.pages.RECYCLE.description": "The clerk recycled the card and gave you a good price.",
+
+  "ZZZLIB-HOLLOW_ZERO.title": "Hollow Zero",
+  "ZZZLIB-HOLLOW_ZERO.pages.INITIAL.description": "[sine]Hollows[/sine] are [jitter][red]supernatural disasters[/red][/jitter] triggered by [purple]Ether energy[/purple], manifesting as ever-expanding spherical fields.\nThe space-time within them is [jitter][red]extremely chaotic[/red][/jitter], filled with unknown dangers—a near-death sentence for ordinary people.",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.title": "Go Around",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.description": "Take {Damage} damage. Remove [blue]1[/blue] card from your Deck.",
+  "ZZZLIB-HOLLOW_ZERO.pages.SHORTCUT.description": "Even at the edge of a [sine]Hollow[/sine], it's still extremely [red]dangerous[/red].",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.title": "Enter the Hollow Depths",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.description": "Add 1 [red]Corruption[/red] to your deck. Gain [blue]{Relic}[/blue] random [gold]Common Relic[/gold](s).",
+  "ZZZLIB-HOLLOW_ZERO.pages.ENTER.description": "[purple]Ether energy[/purple] [jitter][red]corrodes[/red][/jitter] your body. But you find some good things within the [sine]Hollow[/sine].\n[sine]Danger is also opportunity.[/sine]",
+
+  "ZZZLIB-HIA.title": "HIA Club",
+  "ZZZLIB-HIA.pages.INITIAL.description": "A subordinate organization of [gold]HIA[/gold], located in Janus Quarter. Operates a [gold]VR simulation system[/gold] open to the general public.\nOpen 24/7, with [blue]lodging[/blue] and [blue]breakfast[/blue] available.",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.title": "Combat Simulation Room",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.description": "Fight a [gold]Normal Enemy[/gold] and gain [blue]1[/blue] extra [gold]Card Reward[/gold].",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.title": "Expert Challenge Room",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.description": "Fight a [red]Elite Enemy[/red] and gain [blue]1[/blue] extra [gold]Relic[/gold].",
+
+
+  "ZZZLIB-RANDOM_PLAY.title": "Random Play",
+
+  "ZZZLIB-RANDOM_PLAY.pages.INITIAL.description": "A video rental store run by Rin and Tetsu, offering [gold]discs[/gold] for rent.",
+
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.title": "Rent [gold]Video[/gold]",
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.description": "Choose [blue]1[/blue] from [blue]3[/blue] [gold]Drive Discs[/gold] to add to your deck.",
+
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.selectionScreenPrompt": "Choose 1 to add to your deck.",
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.description": "It's supposed to be a rental, but the shopkeeper recommended a few [gold]Drive Discs[/gold] for you.",
+
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.title": "Chance Encounter",
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.description": "Choose [blue]1[/blue] from [blue]3[/blue] [gold]Partner[/gold] cards to add to your hand.",
+
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.description": "Come to think of it, there sure are a lot of people coming in... Are videos really that popular?\nOr maybe they're all [sine]here for the shopkeeper[/sine]?",
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.selectionScreenPrompt": "Choose 1 to add to your deck."
+}

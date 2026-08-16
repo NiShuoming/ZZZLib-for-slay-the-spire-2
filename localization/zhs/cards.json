@@ -1,0 +1,112 @@
+{
+  "ZZZLIB-BANYUE.title": "般岳",
+  "ZZZLIB-BANYUE.description": "[blue]1：[/blue]造成{Damage:diff()}点伤害，获得{Block:diff()}点[gold]格挡[/gold]。\n[blue]2：[/blue]造成{Damage2:diff()}点伤害2次。\n[blue]3：[/blue]对所有敌人造成{Damage3:diff()}点伤害，给予2层[gold]易伤[/gold]。",
+  "ZZZLIB-BELLE.title": "铃",
+  "ZZZLIB-BELLE.description": "消耗1[gold]第二能量[/gold]。\n在[gold]消耗堆[/gold]中，选择{Cards:diff()}张牌放入[gold]手牌[/gold]。",
+  "ZZZLIB-BELLE.selectionScreenPrompt": "选择{Cards:diff()}张牌放入你的[gold]手牌[/gold]。",
+  "ZZZLIB-BUNNY_BAND.title": "兔能环",
+  "ZZZLIB-BUNNY_BAND.description": "如果[gold]格挡[/gold]超过10，获得{VigorPower:diff()}层[gold]活力[/gold]。",
+
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.description": "对[gold]脆弱[/gold]敌人额外造成{Count:diff()}点伤害。",
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.title": "云霓孤光",
+
+  "ZZZLIB-DIALYN.title": "琉音",
+  "ZZZLIB-DIALYN.description": "对所有敌人造成{Damage:diff()}点伤害。\n给予{FrailPower:diff()}层[gold]脆弱[/gold]。\n触发[pink]终结技[/pink]。",
+
+  "ZZZLIB-FREE_DOM.title": "自由蓝调",
+  "ZZZLIB-FREE_DOM.description": "获得{AnomalyProficiency:diff()}层[gold]异常精通[/gold]。",
+  "ZZZLIB-DEMORALIZED.title": "斗志涣散",
+  "ZZZLIB-DEMORALIZED.description": "当你的回合结束时，此牌还在你的手中，失去1点[gold]第二能量[/gold]。",
+
+  "ZZZLIB-HORMONE_PUNK.title": "原始朋克",
+  "ZZZLIB-HORMONE_PUNK.description": "获得{DexterityPower:diff()}层[gold]敏捷[/gold]。",
+
+  "ZZZLIB-SWING_JAZZ.title": "摇摆爵士",
+  "ZZZLIB-SWING_JAZZ.description": "每{Turn:diff()}回合，获得{Energy:energyIcons()}。",
+
+
+  "ZZZLIB-JU_FUFU.title": "橘福福",
+  "ZZZLIB-JU_FUFU.description": "造成{CalculatedDamage:diff()}点伤害。\n给予{FrailPower:diff()}层[gold]脆弱[/gold]。\n如果目标有[gold]格挡[/gold]，额外造成{ExtraDamage:diff()}点伤害。",
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.title": "玉魄冰心",
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.description": "[gold]以太帷幕[/gold]额外增伤{EtherVeil:diff()}%。",
+
+  "ZZZLIB-PAN_YINHU.title": "潘引壶",
+  "ZZZLIB-PAN_YINHU.description": "获得{Block:diff()}点[gold]格挡[/gold]。",
+  "ZZZLIB-SPROUT.title": "芽芽",
+  "ZZZLIB-SPROUT.description": "造成{Damage:diff()}点伤害。\n将{Cards:diff()}张[gold]{IfUpgraded:show:飞剑+|飞剑}[/gold]加入[gold]手牌[/gold]。",
+
+  "ZZZLIB-SLICE_OF_TIME.title": "时光切片",
+  "ZZZLIB-SLICE_OF_TIME.description": "同一回合打出攻击牌、能力牌、技能牌时，获得{Energy:energyIcons()}。",
+
+  "ZZZLIB-STARLIGHT_ENGINE.title": "星辉引擎",
+  "ZZZLIB-STARLIGHT_ENGINE.description": "每受到1次攻击，下回合获得{StrengthPower}层[gold]力量[/gold]。",
+
+  "ZZZLIB-STEAM_OVEN.title": "人为刀俎",
+  "ZZZLIB-STEAM_OVEN.description": "满能量时，攻击牌会给予1层[gold]脆弱[/gold]。",
+
+  "ZZZLIB-WEEPING_GEMINI.title": "双生泣星",
+  "ZZZLIB-WEEPING_GEMINI.description": "每触发一次[purple]属性异常[/purple]，在本回合获得{AnomalyProficiency:diff()}层[gold]异常精通[/gold]，最多获得{Max:diff()}层。",
+  "ZZZLIB-WISE.title": "哲",
+  "ZZZLIB-WISE.description": "从{Cards:diff()}张{IfUpgraded:show:升级过的}[gold]伙伴[/gold]牌中选择1张加入[gold]手牌[/gold]。\n本回合这张牌可以免费打出。",
+  "ZZZLIB-WISE.selectionScreenPrompt": "选择一张牌放入你的[gold]手牌[/gold]",
+  "ZZZLIB-WHITE_WATER_BALLAD.title": "沧浪行歌",
+  "ZZZLIB-WHITE_WATER_BALLAD.description": "{IfUpgraded:show:获得1层[gold]以太帷幕[/gold]。\n|}获得[gold]以太帷幕[/gold]时，额外获得1层。",
+
+  "ZZZLIB-WOODPECKER_ELECTRO.title": "啄木鸟电音",
+  "ZZZLIB-WOODPECKER_ELECTRO.description": "给予的[gold]易伤[/gold]层数+1。",
+
+
+
+  "ZZZLIB-YE_SHIYUAN.title": "叶释渊",
+  "ZZZLIB-YE_SHIYUAN.description": "减少自身所有[gold]负面效果[/gold]{Count:diff()}层。",
+
+  "ZZZLIB-YUNKUI_SUMMIT.title": "云岿山",
+  "ZZZLIB-YUNKUI_SUMMIT.description": "将一张[gold]仪玄[/gold]、一张[gold]潘引壶[/gold]、一张[gold]橘福福[/gold]、一张[gold]叶释渊[/gold]加入[gold]手牌[/gold]。",
+
+  "ZZZLIB-YIXUAN.title": "仪玄",
+  "ZZZLIB-YIXUAN.description": "对所有敌人造成{CalculatedDamage:diff()}点伤害{Repeat:diff()}次。\n每有一张[gold]伙伴[/gold]牌，额外造成{ExtraDamage:diff()}点伤害。",
+
+  "ZZZLIB-ZHAO.title": "照",
+  "ZZZLIB-ZHAO.description": "获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]。\n获得{VigorPower:diff()}层[gold]活力[/gold]。",
+
+  "ZZZLIB-NORMA.title": "诺姆",
+  "ZZZLIB-NORMA.description": "造成{Damage:diff()}点伤害{Repeat:diff()}次。\n抽{Cards:diff()}张牌。",
+
+  "ZZZLIB-STARLIGHT_BILLY.title": "星徽 比利",
+  "ZZZLIB-STARLIGHT_BILLY.description": "失去{HpLoss:diff()}点[gold]生命值[/gold]。\n造成{Damage:diff()}点伤害。\n如果目标意图为[gold]攻击[/gold]，获得{Block:diff()}点[gold]格挡[/gold]。",
+
+  "ZZZLIB-CISSIA.title": "希希芙",
+  "ZZZLIB-CISSIA.description": "给予{PoisonPower:diff()}层[gold]中毒[/gold]。",
+
+  "ZZZLIB-PYROIS.title": "佩洛伊斯",
+  "ZZZLIB-PYROIS.description": "获得{SecondEnergy:diff()}[gold]第二能量[/gold]。\n[gold]※[/gold] 获得{VigorPower:diff()}[gold]活力[/gold]。\n[red]※[/red] 造成{Damage:diff()}点伤害。",
+
+  "ZZZLIB-LUCY.title": "露西",
+  "ZZZLIB-LUCY.description": "对所有敌人造成{Damage:diff()}点伤害。\n{CheerOn}个回合获得3[gold]力量[/gold]。",
+
+  "ZZZLIB-BURNICE.title": "柏妮思",
+  "ZZZLIB-BURNICE.description": "给予{BurningAnomalyPower:diff()}层[gold]燃烧[/gold]{Repeat:diff()}次。",
+
+  "ZZZLIB-PROMEIA.title": "普罗米娅",
+  "ZZZLIB-PROMEIA.description": "造成{Damage:diff()}点[purple]异常伤害[/purple]，触发1次[purple]异放[/purple]。",
+
+  "ZZZLIB-SUNBRINGER.title": "挽昼",
+  "ZZZLIB-SUNBRINGER.description": "复制1张[gold]手牌[/gold]的[gold]关键字[/gold]{IfUpgraded:show:和[gold]附魔[/gold]|},给予1张[gold]手牌[/gold]。",
+  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "将第1张牌的[gold]关键字[/gold]{IfUpgraded:show:和[gold]附魔[/gold]|}复制给第二张牌。",
+
+  "ZZZLIB-VELINA.title": "维琳娜",
+  "ZZZLIB-VELINA.description": "对所有敌人造成{Damage:diff()}点伤害。\n触发1次[purple]风化[/purple]。",
+
+  "ZZZLIB-SIGRID.title": "希格莉德",
+  "ZZZLIB-SIGRID.description": "造成{Damage:diff()}点伤害{Repeat:diff()}次，每次抽到手牌中，多造成1次伤害。",
+
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.title": "空羽复归之诗",
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.description": "抽牌时，多抽1张。",
+
+  "ZZZLIB-PARADISE_LOST.title": "失乐园",
+  "ZZZLIB-PARADISE_LOST.description": "触发[purple]属性异常[/purple]时，在本回合获得{StrengthPower:diff()}[gold]力量[/gold]。",
+
+  "ZZZLIB-FEATHERED_FATE.title": "谶羽之誓",
+  "ZZZLIB-FEATHERED_FATE.description": "多段攻击段数加1。"
+
+}

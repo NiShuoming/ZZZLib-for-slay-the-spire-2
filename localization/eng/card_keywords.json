@@ -1,0 +1,28 @@
+{
+  "ZZZLIB-ANOMALY.title": "Anomaly Damage",
+  "ZZZLIB-ANOMALY.description": "Damage affected by [gold]Anomaly Proficiency[/gold].",
+
+  "ZZZLIB-DERIVE.title": "Derive",
+  "ZZZLIB-DERIVE.description": "Based on the order in which this card is played in this round, different effects are obtained.",
+
+  "ZZZLIB-PARTNER.title": "Partner",
+  "ZZZLIB-PARTNER.description": "When you take damage, draw a [gold]Partner[/gold] card from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold].",
+
+  "ZZZLIB-STANCE.title": "Stance",
+  "ZZZLIB-STANCE.description": "Switch effect when playing a card.",
+
+  "ZZZLIB-SECOND ENERGY.title": "The Second Energy",
+  "ZZZLIB-SECOND ENERGY.description": "Character's Special Resource.",
+
+  "ZZZLIB-ULTIMATE.title": "Ultimate",
+  "ZZZLIB-ULTIMATE.description": "Each character has a [pink]Finisher[/pink] card. When triggered, it activates the [pink]Finisher[/pink] card's last effect.",
+
+  "ZZZLIB-ABLOOM.title": "Abloom",
+  "ZZZLIB-ABLOOM.description": "[purple]Attribute Anomaly[purple]\n.Deal [blue]4[/blue] [purple]Anomaly Damage[/purple] for each [gold]Debuff[/gold] on the target.",
+
+  "ZZZLIB-WINDBLOOM.title": "Windbloom",
+  "ZZZLIB-WINDBLOOM.description": "[purple]Attribute Anomaly[purple]\nIf target have [gold]Debuff[/gold], deal [blue]2[/blue] [purple]Anomaly Damage[/purple] to All Enemies, plus [blue]2[/blue] additional Damage for each [gold]Debuff[/gold] on the target.",
+
+  "ZZZLIB-DISORDER.title": "Disorder",
+  "ZZZLIB-DISORDER.description": "[purple]Attribute Anomaly[purple]\nDeal [blue]8[/blue] [purple]Anomaly Damage[/purple] to the target."
+}

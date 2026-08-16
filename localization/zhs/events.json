@@ -1,0 +1,39 @@
+{
+  "ZZZLIB-BOX_GALAXY.title": "盒",
+  "ZZZLIB-BOX_GALAXY.pages.INITIAL.description": "一家售卖[gold]音擎[/gold]商店，不过店员一直觉得自己卖的是[gold]玩具[/gold]。",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.title": "购买音擎",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.description": "减少{Gold}[gold]金币[/gold]，从{Cards}张[gold]音擎[/gold]中选择1张加入牌组。",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.selectionScreenPrompt": "选择1张加入牌组。",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.description": "[gold]音擎[/gold]发出的[jitter]律动[/jitter]正在提升你的能力。",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.title": "回收",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.description": "删除1张非初始牌，获得{Recycle}金币。",
+  "ZZZLIB-BOX_GALAXY.pages.RECYCLE.description": "店员回收了这张牌，给出了不错的价格。",
+
+  "ZZZLIB-HOLLOW_ZERO.title": "空洞",
+  "ZZZLIB-HOLLOW_ZERO.pages.INITIAL.description": "[sine]空洞[/sine]是由[purple]以太能量[/purple]引发的[jitter][red]超自然灾害[/red][/jitter]，表现为不断扩张的球形领域。\n其内部时空[jitter][red]极度紊乱[/red][/jitter]，充满未知的危险，对普通人来说几乎是绝境。",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.title": "绕过去",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.description": "受到{Damage}点伤害，移除[blue]1[/blue]张牌。",
+  "ZZZLIB-HOLLOW_ZERO.pages.SHORTCUT.description": "即便只是[sine]空洞[/sine]边缘，这里也是十分[red]危险[/red]。",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.title": "深入空洞",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.description": "获得1张[red]侵蚀[/red]，获得[blue]{Relic}[/blue]件随机[gold]普通遗物[/gold]。",
+  "ZZZLIB-HOLLOW_ZERO.pages.ENTER.description": "[purple]以太能量[/purple][jitter][red]侵蚀了[/red][/jitter]你的身体。但是你从[sine]空洞[/sine]中找到了些好东西。\n[sine]危险也是机遇[/sine]。",
+
+  "ZZZLIB-HIA.title": "HIA Club",
+  "ZZZLIB-HIA.pages.INITIAL.description": "[gold]HIA[/gold]的下级组织，坐落在雅努斯区。运营对一般民众开放的[gold]VR模拟系统[/gold].\n全天开放，设有[blue]住宿[/blue]和[blue]早餐[/blue]。",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.title": "实战模拟室",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.description": "与[gold]普通敌人[/gold]进行战斗，额外获得[blue]1[/blue]组[gold]卡牌奖励[/gold]。",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.title": "专业挑战室",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.description": "与[red]精英敌人[/red]进行战斗，额外获得[blue]1[/blue]个[gold]遗物[/gold]。",
+
+  "ZZZLIB-RANDOM_PLAY.title": "Random Play",
+  "ZZZLIB-RANDOM_PLAY.pages.INITIAL.description": "铃和哲开的录像店，提供租借[gold]碟片[/gold]的服务。",
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.title": "租借[gold]录像[/gold]",
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.description": "从[blue]3[/blue]张[gold]驱动盘[/gold]中选择1张加入牌组。",
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.selectionScreenPrompt": "选择1张加入牌组。",
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.description": "虽说是租借录像，但是店长给你推荐了几张[gold]驱动盘[/gold]。",
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.title": "偶遇",
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.description": "从[blue]3[/blue]张[gold]伙伴[/gold]牌中选择1张加入手牌。",
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.description": "话说回来，来的人也太多了吧，录像有这么受欢迎吗？\n还是说，大家都是[sine]冲着店长来的[/sine]？",
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.selectionScreenPrompt": "选择1张加入牌组。"
+
+}

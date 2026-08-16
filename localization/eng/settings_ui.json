@@ -1,0 +1,7 @@
+{
+  "ZZZLIB-mod_title": "ZZZLib",
+  "ZZZLIB-OPEN_EVENT.title": "Open ZZZLib Event",
+  "ZZZLIB-OPEN_EVENT.hover.desc": "After closing, you will no longer encounter ZZZLib-related events.",
+  "ZZZLIB-MODIFIED_FRAIL.title": "Enable modifications to 'Frail'.",
+  "ZZZLIB-MODIFIED_FRAIL.hover.desc": "When enabled, enemies with 'Frail' deal 2 less damage."
+}

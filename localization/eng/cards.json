@@ -1,0 +1,116 @@
+{
+  "ZZZLIB-BANYUE.title": "Banyue",
+  "ZZZLIB-BANYUE.description": "[blue]1：[/blue]Deal {Damage:diff()} damage, gain {Block:diff()} [gold]Block[/gold].\n[blue]2：[/blue]Deal {Damage2:diff()} damage twice.\n[blue]3：[/blue]Deal {Damage3:diff()} damage to ALL enemies, apply 2 [gold]Vulnerable[/gold]。",
+  "ZZZLIB-BELLE.title": "Belle",
+  "ZZZLIB-BELLE.description": "Consume 1 [gold]Qingming Sword Force[/gold].\nChoose {Cards:diff()} card from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
+  "ZZZLIB-BELLE.selectionScreenPrompt": "Choose {Cards:diff()} card into your [gold]Hand[/gold].",
+
+  "ZZZLIB-BUNNY_BAND.title": "Bunny Band",
+  "ZZZLIB-BUNNY_BAND.description": "If you have more than 10 [gold]Block[/gold], gain {VigorPower:diff()} [gold]Vigor[/gold].",
+
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.title": "Cloudcleave Radiance",
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.description": "Deal {Count:diff()} additional damage to [gold]Frail[/gold] enemies.",
+
+  "ZZZLIB-DIALYN.title": "Dialyn",
+  "ZZZLIB-DIALYN.description": "Deal {Damage:diff()} damage to ALL enemies.\nApply {FrailPower:diff()} [gold]Frail[/gold].\nActivate [pink]Ultimate[/pink].",
+
+  "ZZZLIB-FREE_DOM.title": "Free Dom",
+  "ZZZLIB-FREE_DOM.description": "Gain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold].",
+  "ZZZLIB-DEMORALIZED.title": "Demoralized",
+  "ZZZLIB-DEMORALIZED.description": "At the end of your Turn, if this card is still in your hand, lose 1 [gold]Second Energy[/gold].",
+
+  "ZZZLIB-HORMONE_PUNK.title": "Hormone Punk",
+  "ZZZLIB-HORMONE_PUNK.description": "Gain {DexterityPower:diff()} [gold]Dexterity[/gold].",
+
+
+  "ZZZLIB-JU_FUFU.title": "Ju Fufu",
+  "ZZZLIB-JU_FUFU.description": "Deal {CalculatedDamage:diff()} damage.\nApply {FrailPower:diff()} [gold]Frail[/gold].\nIf enemy has a [gold]Block[/gold], deal {ExtraDamage:diff()} additional damage.",
+  "ZZZLIB-PAN_YINHU.title": "Pan Yinhu",
+  "ZZZLIB-PAN_YINHU.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "ZZZLIB-SWING_JAZZ.title": "Swing Jazz",
+  "ZZZLIB-SWING_JAZZ.description": "Every {Turn:diff()} turns, gain {Energy:energyIcons()}.",
+
+  "ZZZLIB-SLICE_OF_TIME.title": "Slice of Time",
+  "ZZZLIB-SLICE_OF_TIME.description": "When you play an Attack, a Power, and a Skill card in the same turn, gain {Energy:energyIcons()}.",
+
+  "ZZZLIB-STARLIGHT_ENGINE.title": "Starlight Engine",
+  "ZZZLIB-STARLIGHT_ENGINE.description": "Whenever you are attacked, gain {StrengthPower} [gold]Strength[/gold] next turn.",
+
+  "ZZZLIB-STEAM_OVEN.title": "Steam Oven",
+  "ZZZLIB-STEAM_OVEN.description": "When at full Energy, Attack cards apply 1 [gold]Frail[/gold] when played.",
+
+  "ZZZLIB-WEEPING_GEMINI.title": "Weeping Gemint",
+  "ZZZLIB-WEEPING_GEMINI.description": "Each time you deal an [purple]Anomaly Damage[/purple], gain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold] this turn, up to {Max:diff()} stacks.",
+
+
+  "ZZZLIB-SPROUT.title": "Sprout",
+  "ZZZLIB-SPROUT.description": "Deal {Damage:diff()} damage.\nAdd {Cards:diff()} [gold]{IfUpgraded:show:Flying Sword+|Flying Sword}[/gold] into your [gold]Hand[/gold].",
+  "ZZZLIB-WISE.title": "Wise",
+  "ZZZLIB-WISE.description": " Choose 1 of 3 random{IfUpgraded:show: [gold]Upgraded[/gold]|} [gold]Partner[/gold] cards into your [gold]Hand[/gold].It's free to play this turn.",
+  "ZZZLIB-WISE.selectionScreenPrompt": "Choose {Cards:diff()} card into your [gold]Hand[/gold].",
+
+  "ZZZLIB-WOODPECKER_ELECTRO.title": "Woodpecker Electro",
+  "ZZZLIB-WOODPECKER_ELECTRO.description": "When you apply [gold]Vulnerable[/gold], apply 1 additional [gold]Vulnerable[/gold].",
+
+
+
+  "ZZZLIB-YE_SHIYUAN.title": "Ye Shiyuan",
+  "ZZZLIB-YE_SHIYUAN.description": "Reduce all your debuffs by {Count:diff()}.",
+
+  "ZZZLIB-YUNKUI_SUMMIT.title": "Yunkui Summit",
+  "ZZZLIB-YUNKUI_SUMMIT.description": "Add a [gold]Yixuan[/gold], a [gold]Pan Yinhu[/gold], a [gold]Ju Fufu[/gold], and a [gold]Ye Shiyuan[/gold] into your [gold]Hand[/gold].",
+
+  "ZZZLIB-YIXUAN.title": "Yixuan",
+  "ZZZLIB-YIXUAN.description": "Deal {CalculatedDamage:diff()} damage {Repeat:diff()} times.\nDeal {ExtraDamage:diff()} additional damage for ALL your other [gold]Partner[/gold] cards.",
+
+  "ZZZLIB-ZHAO.title": "Zhao",
+  "ZZZLIB-ZHAO.description": "Gain {EtherVeil:diff()} [gold]Ether Veil[/gold].\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
+
+
+
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.title": "Jade Soul Frozen Heart",
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.description": "[gold]Ether Veil[/gold] provides {EtherVeil:diff()}% additional damage.",
+
+  "ZZZLIB-WHITE_WATER_BALLAD.title": "White Water Ballad",
+  "ZZZLIB-WHITE_WATER_BALLAD.description": "{IfUpgraded:show:Gain 1 [gold]Ether Veil[/gold].\n|}Whenever you gain [gold]Ether Veil[/gold], gain 1 more.",
+
+  "ZZZLIB-NORMA.title": "Norma",
+  "ZZZLIB-NORMA.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nDraw {Cards:diff()} cards.",
+
+  "ZZZLIB-STARLIGHT_BILLY.title": "Starlight Billy",
+  "ZZZLIB-STARLIGHT_BILLY.description": "Lose {HpLoss:diff()} [gold]HP[/gold].\nDeal {Damage:diff()} damage.\nIf the target's intent is [gold]Attack[/gold], gain {Block:diff()} [gold]Block[/gold].",
+  "ZZZLIB-CISSIA.title": "Cissia",
+  "ZZZLIB-CISSIA.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
+
+  "ZZZLIB-PYROIS.title": "Pyrois",
+  "ZZZLIB-PYROIS.description": "Gain {SecondEnergy:diff()} [gold]Second Energy[/gold].\n[gold]※[/gold] Gain {VigorPower:diff()} [gold]Vigor[/gold].\n[red]※[/red] Deal {Damage:diff()} damage.",
+
+  "ZZZLIB-LUCY.title": "Lucy",
+  "ZZZLIB-LUCY.description": "Deal {Damage:diff()} damage to All Enemies.\nGain 3 [gold]Strength[/gold] for {CheerOn} turns.",
+
+  "ZZZLIB-BURNICE.title": "Burnice",
+  "ZZZLIB-BURNICE.description": "Apply {BurningAnomalyPower:diff()} [gold]Burn[/gold] {Repeat:diff()} times.",
+
+  "ZZZLIB-PROMEIA.title": "Promeia",
+  "ZZZLIB-PROMEIA.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] and trigger 1 [purple]Abloom[/purple].",
+
+  "ZZZLIB-SUNBRINGER.title": "Sunbringer",
+  "ZZZLIB-SUNBRINGER.description": "Copy [gold]Keywords[/gold] {IfUpgraded:show:and [gold]Enchantments[/gold] |}from a card in [gold]Hand[/gold], and add it to a card in [gold]Hand[/gold] ",
+  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "Copy the [gold]keyword[/gold]{IfUpgraded:show: and [gold]Enchant[/gold]|} from the first card to the second card.",
+
+  "ZZZLIB-VELINA.title": "Velina",
+  "ZZZLIB-VELINA.description": "Deal {Damage:diff()} damage to All Enemies.\nTrigger 1 [purple]Windbloom[/purple].",
+
+  "ZZZLIB-SIGRID.title": "Sigrid",
+  "ZZZLIB-SIGRID.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nEach time drawn into hand, deal 1 additional time.",
+
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.title": "Ode of Resurrected Wings",
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.description": "Draw 1 additional card when drawing.",
+
+  "ZZZLIB-PARADISE_LOST.title": "Paradise Lost",
+  "ZZZLIB-PARADISE_LOST.description": "Whenever triggering a [purple]Attribute Anomaly[/purple], gain {StrengthPower:diff()} [gold]Strength[/gold] for one turn.",
+
+  "ZZZLIB-FEATHERED_FATE.title": "Feathered Fate",
+  "ZZZLIB-FEATHERED_FATE.description": "Multi-hit attacks gain +1 hit."
+
+}

@@ -1,0 +1,73 @@
+{
+  "ANOMALY_PROFICIENCY.title": "Anomaly Proficiency",
+  "ANOMALY_PROFICIENCY.description": "Increase [purple]Anomaly Damage[/purple].",
+  "ANOMALY_PROFICIENCY.smartDescription": "Increase [purple]Anomaly Damage[/purple] by {Amount}.",
+
+  "BUNNY_BAND_POWER.title": "Bunny Band",
+  "BUNNY_BAND_POWER.description": "If you have more than 10 [gold]Block[/gold], gain [gold]Vigor[/gold].",
+  "BUNNY_BAND_POWER.smartDescription": "If you have more than 10 [gold]Block[/gold], gain {Amount} [gold]Vigor[/gold].",
+
+  "CLOUDCLEAVE_RADIANCE_POWER.title": "Cloudcleave Radiance Power",
+  "CLOUDCLEAVE_RADIANCE_POWER.description": "Deal additional damage to [gold]Frail[/gold] enemies.",
+  "CLOUDCLEAVE_RADIANCE_POWER.smartDescription": "Deal {Amount} additional damage to [gold]Frail[/gold] enemies.",
+
+  "ETHER_VEIL.title": "Ether Veil",
+  "ETHER_VEIL.description": "Attack cards deal [blue]35%[/blue] more damage.",
+  "ETHER_VEIL.smartDescription": "Attack cards deal [blue]{DamageA:diff()}%[/blue] more damage.",
+
+  "JADE_SOUL_FROZEN_HEART_POWER.title": "Jade Soul Frozen Heart Power",
+  "JADE_SOUL_FROZEN_HEART_POWER.description": "[gold]Ether Veil[/gold] provides an additional damage.",
+  "JADE_SOUL_FROZEN_HEART_POWER.smartDescription": "[gold]Ether Veil[/gold] provides {Amount}% additional damage.",
+
+  "SLICE_OF_TIME_POWER.title": "Slice of Time",
+  "SLICE_OF_TIME_POWER.description": "When you play an Attack, a Power, and a Skill card in the same turn, gain Energy.",
+  "SLICE_OF_TIME_POWER.smartDescription": "When you play an Attack, a Power, and a Skill card in the same turn, gain {Amount:energyIcons()}.",
+
+  "STARLIGHT_ENGINE_POWER.title": "Starlight Engine",
+  "STARLIGHT_ENGINE_POWER.description": "Whenever you are attacked, gain [gold]Strength[/gold] next turn.",
+  "STARLIGHT_ENGINE_POWER.smartDescription": "Whenever you are attacked, gain {Amount} [gold]Strength[/gold] next turn.",
+
+  "STEAM_OVEN_POWER.title": "Steam Oven",
+  "STEAM_OVEN_POWER.description": "When at full Energy, Attack cards apply [gold]Frail[/gold] when played.",
+  "STEAM_OVEN_POWER.smartDescription": "When at full Energy, Attack cards apply 1 [gold]Frail[/gold] when played.",
+
+  "SWING_JAZZ_POWER.title": "Swing Jazz",
+  "SWING_JAZZ_POWER.description": "Every 2 turns, gain Energy.",
+  "SWING_JAZZ_POWER.smartDescription": "Every {Amount} turns, gain {Energy:energyIcons()}.",
+
+  "WEEPING_GEMINI_POWER.title": "Weeping Gemint",
+  "WEEPING_GEMINI_POWER.description": "Each time you deal an [purple]Anomaly Damage[/purple], gain [gold]Anomaly Proficiency[/gold] this turn.",
+  "WEEPING_GEMINI_POWER.smartDescription": "Each time you deal an [purple]Anomaly Damage[/purple], gain 1 [gold]Anomaly Proficiency[/gold] this turn, up to {Amount} stacks.",
+
+  "WHITE_WATER_BALLAD_POWER.title": "White Water Ballad",
+  "WHITE_WATER_BALLAD_POWER.description": "Whenever you gain [gold]Ether Veil[/gold], gain more.",
+  "WHITE_WATER_BALLAD_POWER.smartDescription": "Whenever you gain [gold]Ether Veil[/gold], gain {Amount} more.",
+
+  "WOODPECKER_ELECTRO_POWER.title": "Woodpecker Electro",
+  "WOODPECKER_ELECTRO_POWER.description": "When you apply [gold]Vulnerable[/gold], apply additional [gold]Vulnerable[/gold].",
+  "WOODPECKER_ELECTRO_POWER.smartDescription": "When you apply [gold]Vulnerable[/gold], apply {Amount} additional [gold]Vulnerable[/gold].",
+  "CHEER_ON.title": "Cheer On!",
+  "CHEER_ON.description": "Gain [blue]3[/blue] [gold]Strength[/gold].",
+  "CHEER_ON.smartDescription": "Gain [blue]{StrengthPower}[/blue] [gold]Strength[/gold].",
+
+  "BURNING_ANOMALY_POWER.title": "Burn",
+  "BURNING_ANOMALY_POWER.description": "At the end of turn, take [purple]Anomaly Damage[/purple].",
+  "BURNING_ANOMALY_POWER.smartDescription": "At the end of turn, take {Amount} [purple]Anomaly Damage[/purple].",
+
+  "ODE_OF_RESURRECTED_WINGS_POWER.title": "Ode of Resurrected Wings",
+  "ODE_OF_RESURRECTED_WINGS_POWER.description": "Draw additional cards when drawing.",
+  "ODE_OF_RESURRECTED_WINGS_POWER.smartDescription": "Draw {Amount} additional cards when drawing.",
+
+  "PARADISE_LOST_POWER.title": "Paradise Lost",
+  "PARADISE_LOST_POWER.description": "Whenever triggering a [purple]Attribute Anomaly[/purple], gain [gold]Strength[/gold] one turn.",
+  "PARADISE_LOST_POWER.smartDescription": "Whenever triggering a [purple]Attribute Anomaly[/purple], gain {Amount} [gold]Strength[/gold] for one turn.",
+
+  "FEATHERED_FATE_POWER.title": "Feathered Fate",
+  "FEATHERED_FATE_POWER.description": "Multi-hit attacks gain additional hits.",
+  "FEATHERED_FATE_POWER.smartDescription": "Multi-hit attacks gain {Amount} additional hits.",
+
+  "FRAIL_POWER.description": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.\nIf this is an enemy, damage reduced by 2.",
+  "FRAIL_POWER.smartDescription": "Gain [blue]25%[/blue] less [gold]Block[/gold] from cards for [blue]{Amount}[/blue] {Amount:plural:turn|turns}.nIf this is an enemy, damage reduced by 2.",
+  "FRAIL_POWER.title": "Frail"
+
+}
