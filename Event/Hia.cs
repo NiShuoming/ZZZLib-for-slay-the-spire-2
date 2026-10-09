@@ -22,7 +22,7 @@ namespace ZZZLib.Event
         public override bool IsShared => true;
         public override bool IsAllowed(IRunState runState)
         {
-            if (!ZZZConfig.OpenEvent) return false;
+            if (!ZZZConfig.OpenEvent && runState.Players.Count == 1) return false;
             return true;
         }
         protected override IReadOnlyList<EventOption> GenerateInitialOptions()
@@ -43,8 +43,8 @@ namespace ZZZLib.Event
 
         private Task FightElite()
         {
-            List<EncounterModel> fight = Owner.RunState.Act.AllEliteEncounters.Where(a => !a.IsMutable).ToList();
-            EncounterModel encounter = fight.TakeRandom(1, Owner.RunState.Rng.UpFront).FirstOrDefault();
+            EncounterModel encounter = Owner.RunState.Act.AllEliteEncounters.FirstOrDefault();
+            if( encounter != null ) 
             EnterCombatWithoutExitingEvent(encounter, new List<Reward>() { new RelicReward(Owner) }, false);
             return Task.CompletedTask;
 
@@ -52,11 +52,11 @@ namespace ZZZLib.Event
 
         private Task FightEasy()
         {
-            List<EncounterModel> fight = Owner.RunState.Act.AllRegularEncounters.Where(a=>!a.IsMutable).ToList();
-            EncounterModel encounter = fight.TakeRandom(1, Owner.RunState.Rng.UpFront).FirstOrDefault();
+            EncounterModel encounter = Owner.RunState.Act.AllRegularEncounters.FirstOrDefault();
             CardCreationOptions options = CardCreationOptions.ForNonCombatWithUniformOdds(new List<CardPoolModel>() { base.Owner.Character.CardPool })
                 .WithFlags(CardCreationFlags.NoRarityModification | CardCreationFlags.NoCardPoolModifications);
-            EnterCombatWithoutExitingEvent(encounter, new List<Reward>() { new CardReward(options,3, Owner)}, false);
+            if (encounter != null)
+                EnterCombatWithoutExitingEvent(encounter, new List<Reward>() { new CardReward(options,3, Owner)}, false);
             return Task.CompletedTask;
         }
     }

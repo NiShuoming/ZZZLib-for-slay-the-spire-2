@@ -17,7 +17,7 @@ using ZZZLib.Model;
 namespace ZZZLib.Cards.Partner
 {
     /// <summary>
-    /// 佩洛伊斯 1 【伙伴】【架势】回复2第二能量，1：获得4（6）活力  2：造成7（10）伤害
+    /// 佩洛伊斯 1 【伙伴】【架势】抽2，1：获得6（9）活力  2：造成9（12）伤害
     /// </summary>
     public class Pyrois : ZZZPartnerCardModel
     {
@@ -27,8 +27,8 @@ namespace ZZZLib.Cards.Partner
             [ZZZKeyWord.Partner, ZZZKeyWord.Stance];
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new DynamicVar("SecondEnergy",2), new PowerVar<VigorPower>(4),
-            new DamageVar(8, MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)];
+            [new CardsVar(2), new PowerVar<VigorPower>(6),
+            new DamageVar(9, MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips =>
             [HoverTipFactory.FromKeyword(ZZZKeyWord.SecondEnergy),
@@ -42,7 +42,7 @@ namespace ZZZLib.Cards.Partner
 
         protected override void OnUpgrade()
         {
-            DynamicVars.Power<VigorPower>().UpgradeValueBy(2);
+            DynamicVars.Power<VigorPower>().UpgradeValueBy(3);
             DynamicVars.Damage.UpgradeValueBy(3);
         }
 
@@ -54,7 +54,7 @@ namespace ZZZLib.Cards.Partner
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
-            await ZZZCmd.AddSecondEnergy(Owner, 2, Owner.Creature, this);
+            await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
             if (stance)
             {
                 await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature,

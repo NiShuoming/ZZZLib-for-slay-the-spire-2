@@ -27,10 +27,23 @@ namespace ZZZLib.Cards.Partner
             [new DamageVar(10m,ValueProp.Move), new PowerVar<FrailPower>(2m)];
 
         public override IEnumerable<CardKeyword> CanonicalKeywords => 
-            [ZZZKeyWord.Partner, ZZZKeyWord.Ultimate];
+            [ZZZKeyWord.Partner];
 
-        protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-            [HoverTipFactory.FromPower<FrailPower>()];
+        protected override IEnumerable<IHoverTip> ExtraHoverTips
+        {
+            get
+            {
+                List<IHoverTip> tips = [HoverTipFactory.FromPower<FrailPower>(),
+                    HoverTipFactory.FromKeyword(ZZZKeyWord.Ultimate)];
+                if(IsMutable && Owner != null)
+                {
+                    var card = (Owner.Character.CardPool.AllCards.Where(
+                        a => a.Keywords.Contains(ZZZKeyWord.Ultimate))).FirstOrDefault();
+                    if (card != null) tips.Add(HoverTipFactory.FromCard(card));
+                }
+                return tips;
+            }
+        }
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {

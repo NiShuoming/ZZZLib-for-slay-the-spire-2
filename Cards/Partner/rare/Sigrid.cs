@@ -1,5 +1,7 @@
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -15,14 +17,14 @@ using ZZZLib.Model;
 namespace ZZZLib.Cards.Partner
 {
     /// <summary>
-    /// 希格莉德 2 【伙伴】造成7（9）伤害，每次抽到手牌中，多造成1次伤害。
+    /// 希格莉德 2 【伙伴】造成7（9）伤害，每次抽到手牌中、保留、打出后，多造成1次伤害。
     /// </summary>
     public class Sigrid : ZZZPartnerCardModel
     {
         public Sigrid() : base(2, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new DamageVar(8, ValueProp.Move), new RepeatVar(1)];
+            [new DamageVar(7, ValueProp.Move), new RepeatVar(1)];
 
         protected override void OnUpgrade()
         {
@@ -66,6 +68,18 @@ namespace ZZZLib.Cards.Partner
                 .WithHitFx("vfx/vfx_attack_slash")
                 .Execute(choiceContext);
 
+            DynamicVars.Repeat.BaseValue += 1;
+            ExtraRepeat += 1;
+        }
+
+        public override Task AfterSideTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
+        {
+            if (participants.Contains(Owner.Creature) && Pile!=null && Pile.Type==PileType.Hand)
+            {
+                DynamicVars.Repeat.BaseValue += 1;
+                ExtraRepeat += 1;
+            }
+            return Task.CompletedTask;
         }
     }
 }

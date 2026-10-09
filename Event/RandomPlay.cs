@@ -29,7 +29,7 @@ namespace ZZZLib.Event
         }
         public override bool IsAllowed(IRunState runState)
         {
-            if (!ZZZConfig.OpenEvent) return false;
+            if (!ZZZConfig.OpenEvent && runState.Players.Count == 1) return false;
             return true;
         }
 

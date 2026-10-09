@@ -20,15 +20,15 @@ using ZZZLib.Other;
 namespace ZZZLib.Event
 {
     /// <summary>
-    /// 零号空洞 1.寻找捷径：受到8伤害，删1张牌  2.进入深处：获得“侵蚀”，2件遗物
+    /// 零号空洞 1.寻找捷径：受到4伤害，删1张牌  2.进入深处：获得“侵蚀”，2件遗物
     /// </summary>
     public class HollowZero : CustomEventModel
     {
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new DamageVar(8, ValueProp.Unpowered), new DynamicVar("Relic", 2)];
+            [new DamageVar(4, ValueProp.Unpowered), new DynamicVar("Relic", 2)];
         public override bool IsAllowed(IRunState runState)
         {
-            if (!ZZZConfig.OpenEvent) return false;
+            if (!ZZZConfig.OpenEvent && runState.Players.Count == 1) return false;
             return true;
         }
 

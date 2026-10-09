@@ -52,7 +52,8 @@ namespace ZZZLib.Cards.Partner
             }
             if (IsUpgraded && cardModels[0].Enchantment != null && cardModels[1].Enchantment == null)
             {
-                cardModels[1].EnchantInternal(cardModels[0].Enchantment.ToMutable(), cardModels[0].Enchantment.Amount); ;
+                cardModels[1].EnchantInternal(ModelDb.GetById<EnchantmentModel>(
+                    cardModels[0].Enchantment.Id).ToMutable(), cardModels[0].Enchantment.Amount); ;
             }
         }
     }

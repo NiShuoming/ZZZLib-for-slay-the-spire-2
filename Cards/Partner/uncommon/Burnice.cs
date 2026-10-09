@@ -15,14 +15,14 @@ using ZZZLib.Powers;
 namespace ZZZLib.Cards.Partner
 {
     /// <summary>
-    /// 柏妮思 1 【伙伴】给予2（3）次2灼烧
+    /// 柏妮思 1 【伙伴】给予2（3）次3灼烧
     /// </summary>
     public class Burnice : ZZZPartnerCardModel
     {
         public Burnice() : base(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new PowerVar<BurningAnomalyPower>(2), new RepeatVar(2)];
+            [new PowerVar<BurningAnomalyPower>(3), new RepeatVar(2)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips =>
             [HoverTipFactory.FromPower<BurningAnomalyPower>(),
