@@ -3,6 +3,10 @@
   "ANOMALY_PROFICIENCY.description": "Increase [purple]Anomaly Damage[/purple].",
   "ANOMALY_PROFICIENCY.smartDescription": "Increase [purple]Anomaly Damage[/purple] by {Amount}.",
 
+  "ANOMALY_PROFICIENCY_ONE_TURN.title": "Temp Anomaly Proficiency",
+  "ANOMALY_PROFICIENCY_ONE_TURN.description": "Gain [gold]Anomaly Proficiency[/gold] for one turn.",
+  "ANOMALY_PROFICIENCY_ONE_TURN.smartDescription": "Gain {Amount} [gold]Anomaly Proficiency[/gold] for one turn.",
+
   "BUNNY_BAND_POWER.title": "Bunny Band",
   "BUNNY_BAND_POWER.description": "If you have more than 10 [gold]Block[/gold], gain [gold]Vigor[/gold].",
   "BUNNY_BAND_POWER.smartDescription": "If you have more than 10 [gold]Block[/gold], gain {Amount} [gold]Vigor[/gold].",

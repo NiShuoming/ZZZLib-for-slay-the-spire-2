@@ -17,14 +17,14 @@
   "ZZZLIB-ANOMALY.title": "异常伤害",
   "ZZZLIB-ANOMALY.description": "伤害受到[gold]异常精通[/gold]影响。",
 
-  "ZZZLIB-ABLOOM.title": "异放",
-  "ZZZLIB-ABLOOM.description": "[purple]属性异常[/purple]。\n目标每有1种[gold]负面效果[/gold]，造成[blue]4[/blue]点[purple]异常伤害[/purple]。",
+  "ZZZLIB-ABLOOM.title": "异放（属性异常）",
+  "ZZZLIB-ABLOOM.description": "目标每有1种[gold]负面效果[/gold]，造成[blue]4[/blue]点[purple]异常伤害[/purple]1次。",
 
-  "ZZZLIB-WINDBLOOM.title": "风化",
-  "ZZZLIB-WINDBLOOM.description": "[purple]属性异常[/purple]。\n如果目标有负面效果，对所有敌人造成[blue]2[/blue]点[purple]异常伤害[/purple]，目标每有1种[gold]负面效果[/gold]额外造成[blue]2[/blue]点伤害。",
+  "ZZZLIB-WINDBLOOM.title": "风化（属性异常）",
+  "ZZZLIB-WINDBLOOM.description": "如果目标有负面效果，对所有敌人造成[blue]2[/blue]点[purple]异常伤害[/purple]，目标每有1种[gold]负面效果[/gold]额外造成[blue]2[/blue]点伤害。",
 
-  "ZZZLIB-DISORDER.title": "紊乱",
-  "ZZZLIB-DISORDER.description": "[purple]属性异常[/purple]。\n对目标造成[blue]8[/blue]点[purple]异常伤害[/purple]。"
+  "ZZZLIB-DISORDER.title": "紊乱（属性异常）",
+  "ZZZLIB-DISORDER.description": "对目标造成[blue]8[/blue]点[purple]异常伤害[/purple]。"
 
 
 

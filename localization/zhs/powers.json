@@ -1,7 +1,11 @@
 {
   "ANOMALY_PROFICIENCY.title": "异常精通",
-  "ANOMALY_PROFICIENCY.description": "提高[purple]属性异常[/purple]造成的伤害。",
-  "ANOMALY_PROFICIENCY.smartDescription": "提高[purple]属性异常[/purple]造成的伤害{Amount}点。",
+  "ANOMALY_PROFICIENCY.description": "提高[purple]异常伤害[/purple]。",
+  "ANOMALY_PROFICIENCY.smartDescription": "提高[purple]异常伤害[/purple]{Amount}点。",
+
+  "ANOMALY_PROFICIENCY_ONE_TURN.title": "临时异常精通",
+  "ANOMALY_PROFICIENCY_ONE_TURN.description": "本回合获得[gold]异常精通[/gold]。",
+  "ANOMALY_PROFICIENCY_ONE_TURN.smartDescription": "本回合获得{Amount}[gold]异常精通[/gold]。",
 
   "BUNNY_BAND_POWER.title": "兔能环",
   "BUNNY_BAND_POWER.description": "[gold]格挡[/gold]超过10时，获得[gold]活力[/gold]。",
@@ -68,8 +72,6 @@
   "WOODPECKER_ELECTRO_POWER.title": "啄木鸟电音",
   "WOODPECKER_ELECTRO_POWER.description": "给予的[gold]易伤[/gold]层数增加。",
   "WOODPECKER_ELECTRO_POWER.smartDescription": "给予的[gold]易伤[/gold]层数增加{Amount}层。"
-
-
 
 
 

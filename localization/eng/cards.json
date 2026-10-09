@@ -83,7 +83,7 @@
   "ZZZLIB-CISSIA.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
 
   "ZZZLIB-PYROIS.title": "Pyrois",
-  "ZZZLIB-PYROIS.description": "Gain {SecondEnergy:diff()} [gold]Second Energy[/gold].\n[gold]※[/gold] Gain {VigorPower:diff()} [gold]Vigor[/gold].\n[red]※[/red] Deal {Damage:diff()} damage.",
+  "ZZZLIB-PYROIS.description": "Draw {Cards:diff()} cards.\n[gold]※[/gold] Gain {VigorPower:diff()} [gold]Vigor[/gold].\n[red]※[/red] Deal {Damage:diff()} damage.",
 
   "ZZZLIB-LUCY.title": "Lucy",
   "ZZZLIB-LUCY.description": "Deal {Damage:diff()} damage to All Enemies.\nGain 3 [gold]Strength[/gold] for {CheerOn} turns.",
@@ -95,14 +95,14 @@
   "ZZZLIB-PROMEIA.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple] and trigger 1 [purple]Abloom[/purple].",
 
   "ZZZLIB-SUNBRINGER.title": "Sunbringer",
-  "ZZZLIB-SUNBRINGER.description": "Copy [gold]Keywords[/gold] {IfUpgraded:show:and [gold]Enchantments[/gold] |}from a card in [gold]Hand[/gold], and add it to a card in [gold]Hand[/gold] ",
-  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "Copy the [gold]keyword[/gold]{IfUpgraded:show: and [gold]Enchant[/gold]|} from the first card to the second card.",
+  "ZZZLIB-SUNBRINGER.description": "Copy [gold]Keywords[/gold] {IfUpgraded:show:and [gold]Enchantments[/gold] |}from a card in [gold]Hand[/gold], and add it to the second card in [gold]Hand[/gold] ",
+  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "Copy the [gold]keyword[/gold] from the first card to the second card.",
 
   "ZZZLIB-VELINA.title": "Velina",
   "ZZZLIB-VELINA.description": "Deal {Damage:diff()} damage to All Enemies.\nTrigger 1 [purple]Windbloom[/purple].",
 
   "ZZZLIB-SIGRID.title": "Sigrid",
-  "ZZZLIB-SIGRID.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nEach time drawn into hand, deal 1 additional time.",
+  "ZZZLIB-SIGRID.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nEach time drawn into hand, retained, or played, deal 1 additional time.",
 
   "ZZZLIB-ODE_OF_RESURRECTED_WINGS.title": "Ode of Resurrected Wings",
   "ZZZLIB-ODE_OF_RESURRECTED_WINGS.description": "Draw 1 additional card when drawing.",
@@ -111,6 +111,12 @@
   "ZZZLIB-PARADISE_LOST.description": "Whenever triggering a [purple]Attribute Anomaly[/purple], gain {StrengthPower:diff()} [gold]Strength[/gold] for one turn.",
 
   "ZZZLIB-FEATHERED_FATE.title": "Feathered Fate",
-  "ZZZLIB-FEATHERED_FATE.description": "Multi-hit attacks gain +1 hit."
+  "ZZZLIB-FEATHERED_FATE.description": "Multi-hit attacks gain +1 hit.",
+
+  "ZZZLIB-COVENANT_OF_DAYAT.title": "Covenant of Dayat",
+  "ZZZLIB-COVENANT_OF_DAYAT.description": "[gold]Exhaust[/gold] all Curse and Status cards from 1 player.",
+
+  "ZZZLIB-CHAIN_ATTACK.title": "Chain Attack",
+  "ZZZLIB-CHAIN_ATTACK.description": "Deal {CalculatedDamage:diff()} damage.\nEach time another player deals Unblocked damage, increase damage by {ExtraDamage:diff()}."
 
 }

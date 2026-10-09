@@ -79,7 +79,7 @@
   "ZZZLIB-CISSIA.description": "给予{PoisonPower:diff()}层[gold]中毒[/gold]。",
 
   "ZZZLIB-PYROIS.title": "佩洛伊斯",
-  "ZZZLIB-PYROIS.description": "获得{SecondEnergy:diff()}[gold]第二能量[/gold]。\n[gold]※[/gold] 获得{VigorPower:diff()}[gold]活力[/gold]。\n[red]※[/red] 造成{Damage:diff()}点伤害。",
+  "ZZZLIB-PYROIS.description": "抽{Cards:diff()}张牌。\n[gold]※[/gold] 获得{VigorPower:diff()}[gold]活力[/gold]。\n[red]※[/red] 造成{Damage:diff()}点伤害。",
 
   "ZZZLIB-LUCY.title": "露西",
   "ZZZLIB-LUCY.description": "对所有敌人造成{Damage:diff()}点伤害。\n{CheerOn}个回合获得3[gold]力量[/gold]。",
@@ -91,14 +91,14 @@
   "ZZZLIB-PROMEIA.description": "造成{Damage:diff()}点[purple]异常伤害[/purple]，触发1次[purple]异放[/purple]。",
 
   "ZZZLIB-SUNBRINGER.title": "挽昼",
-  "ZZZLIB-SUNBRINGER.description": "复制1张[gold]手牌[/gold]的[gold]关键字[/gold]{IfUpgraded:show:和[gold]附魔[/gold]|},给予1张[gold]手牌[/gold]。",
-  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "将第1张牌的[gold]关键字[/gold]{IfUpgraded:show:和[gold]附魔[/gold]|}复制给第二张牌。",
+  "ZZZLIB-SUNBRINGER.description": "复制1张[gold]手牌[/gold]的[gold]关键字[/gold]{IfUpgraded:show:和[gold]附魔[/gold]|},给予第二张[gold]手牌[/gold]。",
+  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "将第1张牌的[gold]关键字[/gold]复制给第二张牌。",
 
   "ZZZLIB-VELINA.title": "维琳娜",
   "ZZZLIB-VELINA.description": "对所有敌人造成{Damage:diff()}点伤害。\n触发1次[purple]风化[/purple]。",
 
   "ZZZLIB-SIGRID.title": "希格莉德",
-  "ZZZLIB-SIGRID.description": "造成{Damage:diff()}点伤害{Repeat:diff()}次，每次抽到手牌中，多造成1次伤害。",
+  "ZZZLIB-SIGRID.description": "造成{Damage:diff()}点伤害{Repeat:diff()}次，每次抽到手牌、保留、打出后，多造成1次伤害。",
 
   "ZZZLIB-ODE_OF_RESURRECTED_WINGS.title": "空羽复归之诗",
   "ZZZLIB-ODE_OF_RESURRECTED_WINGS.description": "抽牌时，多抽1张。",
@@ -107,6 +107,12 @@
   "ZZZLIB-PARADISE_LOST.description": "触发[purple]属性异常[/purple]时，在本回合获得{StrengthPower:diff()}[gold]力量[/gold]。",
 
   "ZZZLIB-FEATHERED_FATE.title": "谶羽之誓",
-  "ZZZLIB-FEATHERED_FATE.description": "多段攻击段数加1。"
+  "ZZZLIB-FEATHERED_FATE.description": "多段攻击段数加1。",
+
+  "ZZZLIB-COVENANT_OF_DAYAT.title": "达识结社",
+  "ZZZLIB-COVENANT_OF_DAYAT.description": "消耗掉一名队友的所有诅咒牌和状态牌。",
+
+  "ZZZLIB-CHAIN_ATTACK.title": "连携技",
+  "ZZZLIB-CHAIN_ATTACK.description": "造成{CalculatedDamage:diff()}点伤害。\n其他玩家每造成1次伤害，使伤害+{ExtraDamage:diff()}。"
 
 }

@@ -17,12 +17,12 @@
   "ZZZLIB-ULTIMATE.title": "Ultimate",
   "ZZZLIB-ULTIMATE.description": "Each character has a [pink]Finisher[/pink] card. When triggered, it activates the [pink]Finisher[/pink] card's last effect.",
 
-  "ZZZLIB-ABLOOM.title": "Abloom",
-  "ZZZLIB-ABLOOM.description": "[purple]Attribute Anomaly[purple]\n.Deal [blue]4[/blue] [purple]Anomaly Damage[/purple] for each [gold]Debuff[/gold] on the target.",
+  "ZZZLIB-ABLOOM.title": "Abloom (Attribute Anomaly)",
+  "ZZZLIB-ABLOOM.description": "Deal [blue]4[/blue] [purple]Anomaly Damage[/purple] 1 time for each [gold]Debuff[/gold] on the target.",
 
-  "ZZZLIB-WINDBLOOM.title": "Windbloom",
-  "ZZZLIB-WINDBLOOM.description": "[purple]Attribute Anomaly[purple]\nIf target have [gold]Debuff[/gold], deal [blue]2[/blue] [purple]Anomaly Damage[/purple] to All Enemies, plus [blue]2[/blue] additional Damage for each [gold]Debuff[/gold] on the target.",
+  "ZZZLIB-WINDBLOOM.title": "Windbloom (Attribute Anomaly)",
+  "ZZZLIB-WINDBLOOM.description": "If target have [gold]Debuff[/gold], deal [blue]2[/blue] [purple]Anomaly Damage[/purple] to All Enemies, plus [blue]2[/blue] additional Damage for each [gold]Debuff[/gold] on the target.",
 
-  "ZZZLIB-DISORDER.title": "Disorder",
-  "ZZZLIB-DISORDER.description": "[purple]Attribute Anomaly[purple]\nDeal [blue]8[/blue] [purple]Anomaly Damage[/purple] to the target."
+  "ZZZLIB-DISORDER.title": "Disorder (Attribute Anomaly)",
+  "ZZZLIB-DISORDER.description": "Deal [blue]8[/blue] [purple]Anomaly Damage[/purple] to the target."
 }
