@@ -10,11 +10,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
     /// <summary>
-    /// 仪玄 对所有敌人造成伤害7，3-4次，每有1伙伴，伤害+1
+    /// 仪玄 对所有敌人造成伤害8，3-4次，每有1伙伴，伤害+1
     /// </summary>
     public class Yixuan : ZZZPartnerCardModel
     {
@@ -23,13 +24,15 @@ namespace ZZZLib.Cards.Partner
         }
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new CalculationBaseVar(7m), new RepeatVar(3),
+            [new CalculationBaseVar(8m), new RepeatVar(3),
             new ExtraDamageVar(1m), new CalculatedDamageVar(ValueProp.Move).
             WithMultiplier((card, _) => card.Owner.PlayerCombatState.AllCards.
             Count(c => c.Keywords.Contains(ZZZKeyWord.Partner) && c != card))];
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            ZZZVoiceManager.PlayVoice("仪玄攻", volumeAdd: -2);
+            ZZZVoiceManager.PlayVoice("仪玄语音", language: true);
             await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
                 .WithHitCount(DynamicVars.Repeat.IntValue)
                 .FromCard(this,cardPlay).TargetingAllOpponents(CombatState)

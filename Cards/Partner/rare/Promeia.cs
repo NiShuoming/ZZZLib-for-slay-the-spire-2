@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Cmds;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
@@ -37,6 +38,10 @@ namespace ZZZLib.Cards.Partner
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+
+            ZZZVoiceManager.PlayVoice("普罗米亚攻", volumeAdd: -2);
+            ZZZVoiceManager.PlayVoice("普罗米亚语音", language:true);
+
             await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
                 .WithValueProp(ValueProp.Move | ZZZValueProp.Anomaly)
                 .FromCard(this, cardPlay).Targeting(cardPlay.Target)
