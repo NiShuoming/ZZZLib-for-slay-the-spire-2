@@ -19,10 +19,10 @@ namespace ZZZLib.Cards.Equips.DriveDiscs
     /// </summary>
     public class FreeDom:ZZZDriveDiscsCardModel
     {
-        public FreeDom() : base(1, CardType.Power, CardRarity.Uncommon, TargetType.Self) { }
+        public FreeDom() : base(1, CardType.Power, CardRarity.Common, TargetType.Self) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new PowerVar<AnomalyProficiency>(2)];
+            [new PowerVar<AnomalyProficiency>(3)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips => 
             [HoverTipFactory.FromPower<AnomalyProficiency>()];
@@ -36,7 +36,7 @@ namespace ZZZLib.Cards.Equips.DriveDiscs
 
         protected override void OnUpgrade()
         {
-            DynamicVars.Power<AnomalyProficiency>().UpgradeValueBy(1);
+            DynamicVars.Power<AnomalyProficiency>().UpgradeValueBy(2);
         }
     }
 }
