@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Model;
+using ZZZLib.Other;
 using ZZZLib.Powers;
 
 namespace ZZZLib.Cards.Partner
@@ -36,6 +37,9 @@ namespace ZZZLib.Cards.Partner
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            ZZZVoiceManager.PlayVoice("露西攻", volumeAdd: -2);
+            ZZZVoiceManager.PlayVoice("露西语音");
+
             await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
                 .FromCard(this,cardPlay).TargetingAllOpponents(CombatState)
                 .WithHitFx("vfx/vfx_attack_slash")

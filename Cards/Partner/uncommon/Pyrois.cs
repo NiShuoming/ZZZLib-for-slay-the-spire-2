@@ -13,11 +13,12 @@ using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Cmds;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
     /// <summary>
-    /// 佩洛伊斯 1 【伙伴】【架势】抽2，1：获得6（9）活力  2：造成9（12）伤害
+    /// 佩洛伊斯 1 【伙伴】【架势】抽2，1：获得8活力  2：造成11伤害
     /// </summary>
     public class Pyrois : ZZZPartnerCardModel
     {
@@ -27,47 +28,37 @@ namespace ZZZLib.Cards.Partner
             [ZZZKeyWord.Partner, ZZZKeyWord.Stance];
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new CardsVar(2), new PowerVar<VigorPower>(6),
-            new DamageVar(9, MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)];
+            [new CardsVar(2), new PowerVar<VigorPower>(8),
+            new DamageVar(11, MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-            [HoverTipFactory.FromKeyword(ZZZKeyWord.SecondEnergy),
-            HoverTipFactory.FromPower<VigorPower>()];
+            [HoverTipFactory.FromPower<VigorPower>()];
 
-        bool stance = true;
-
-        protected override bool ShouldGlowGoldInternal => stance;
-
-        protected override bool ShouldGlowRedInternal => !stance;
-
-        protected override void OnUpgrade()
+        public override TargetType TargetType
         {
-            DynamicVars.Power<VigorPower>().UpgradeValueBy(3);
-            DynamicVars.Damage.UpgradeValueBy(3);
-        }
-
-        public override Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
-        {
-            stance = !stance;
-            return Task.CompletedTask;
+            get { if (IsUpgraded) return TargetType.Self;
+                else return TargetType.AnyEnemy;
+            }
         }
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
-            if (stance)
+            if (IsUpgraded)
             {
+                ZZZVoiceManager.PlayVoice("佩洛伊斯技",volumeAdd:-2);
+
                 await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature,
                     DynamicVars.Power<VigorPower>().BaseValue, Owner.Creature, this);
             }
             else
             {
                 ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+                ZZZVoiceManager.PlayVoice("佩洛伊斯语音", language: true);
                 await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
                     .FromCard(this, cardPlay).Targeting(cardPlay.Target)
                     .WithHitFx("vfx/vfx_attack_slash")
                     .Execute(choiceContext);
-
             }
         }
     }
