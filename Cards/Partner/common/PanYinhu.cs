@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
@@ -27,6 +28,8 @@ namespace ZZZLib.Cards.Partner
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            ZZZVoiceManager.PlayVoice("潘引壶技");
+
             await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, cardPlay);
         }
 

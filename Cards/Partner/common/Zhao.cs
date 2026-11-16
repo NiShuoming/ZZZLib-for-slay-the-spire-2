@@ -13,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
@@ -32,6 +33,9 @@ namespace ZZZLib.Cards.Partner
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            ZZZVoiceManager.PlayVoice("照技", volumeAdd: -2);
+            ZZZVoiceManager.PlayVoice("照语音", language:true);
+
             await PowerCmd.Apply<Powers.EtherVeil>(choiceContext, Owner.Creature, DynamicVars.Power<Powers.EtherVeil>().IntValue,
                 Owner.Creature, this);
             await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, DynamicVars.Power<VigorPower>().IntValue,

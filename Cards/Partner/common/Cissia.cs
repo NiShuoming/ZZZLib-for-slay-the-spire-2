@@ -1,3 +1,4 @@
+using BaseLib.Audio;
 using BaseLib.Extensions;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -11,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZZZLib.Model;
+using ZZZLib.Other;
 
 namespace ZZZLib.Cards.Partner
 {
@@ -35,6 +37,8 @@ namespace ZZZLib.Cards.Partner
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            ZZZVoiceManager.PlayVoice("希希芙", language: true);
+            
             await PowerCmd.Apply<PoisonPower>(choiceContext, cardPlay.Target,
                 DynamicVars.Power<PoisonPower>().BaseValue, Owner.Creature, this);
         }
