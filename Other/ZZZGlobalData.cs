@@ -26,7 +26,7 @@ namespace ZZZLib.Other
         /// <summary>
         /// 紊乱基础伤害
         /// </summary>
-        public readonly static decimal DisorderDamage = 8;
+        public readonly static decimal DisorderDamage = 10;
 
     }
 }

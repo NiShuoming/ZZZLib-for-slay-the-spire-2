@@ -10,11 +10,19 @@ using System.Threading.Tasks;
 namespace ZZZLib.Other
 {
     [ConfigHoverTipsByDefault]
-    internal class ZZZConfig : SimpleModConfig
+    public class ZZZConfig : SimpleModConfig
     {
         public static bool OpenEvent { get; set; } = true;
 
         public static bool ModifiedFrail { get; set; } = true;
 
+        public static bool CharacterVoice { get; set; } = true;
+
+        public enum Language
+        {
+            Chinese, Japanese
+        }
+
+        public static Language VoiceLanguage { get; set; } = Language.Japanese;
     }
 }

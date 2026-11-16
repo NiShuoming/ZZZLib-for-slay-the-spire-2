@@ -46,6 +46,14 @@ namespace ZZZLib
         public static CardKeyword Ultimate;
 
         /// <summary>
+        /// 极限突破
+        /// </summary>
+        [CustomEnum("OverLimit")]
+        [KeywordProperties(AutoKeywordPosition.Before)]
+        public static CardKeyword OverLimit;
+
+
+        /// <summary>
         /// 属性异常 受元素精通影响的伤害
         /// </summary>
         [CustomEnum("Anomaly")]
@@ -68,6 +76,7 @@ namespace ZZZLib
         /// </summary>
         [CustomEnum("Windbloom")]
         public static CardKeyword Windbloom;
+
     }
 
     public class ZZZTag
@@ -87,5 +96,23 @@ namespace ZZZLib
         /// </summary>
         [CustomEnum("Anomaly")]
         public static ValueProp Anomaly;
+
+        /// <summary>
+        /// 紊乱 
+        /// </summary>
+        [CustomEnum("Disorder")]
+        public static ValueProp Disorder;
+
+        /// <summary>
+        /// 异放 
+        /// </summary>
+        [CustomEnum("Abloom")]
+        public static ValueProp Abloom;
+
+        /// <summary>
+        /// 风化
+        /// </summary>
+        [CustomEnum("Windbloom")]
+        public static ValueProp Windbloom;
     }
 }
