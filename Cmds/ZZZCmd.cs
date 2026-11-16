@@ -50,7 +50,8 @@ namespace ZZZLib.Cmds
             await Cmd.CustomScaledWait(0.1f, 0.2f);
 
             IEnumerable<DamageResult> results = await CreatureCmd.Damage(
-                playerChoice, targets, damage, ValueProp.Unpowered | ZZZValueProp.Anomaly, applier, null, null);
+                playerChoice, targets, damage, ValueProp.Unpowered | ZZZValueProp.Anomaly
+                | ZZZValueProp.Windbloom, applier, null, null);
             await ZZZHook.TriggleAnomaly(playerChoice, ZZZKeyWord.Windbloom, target, applier, results);
             return results;
         }
@@ -68,7 +69,8 @@ namespace ZZZLib.Cmds
 
                 results = results.Concat(await CreatureCmd.Damage(choiceContext,
                     target, ZZZGlobalData.AbloomDamage,
-                    ValueProp.Unpowered | ZZZValueProp.Anomaly, applier, null, null));
+                    ValueProp.Unpowered | ZZZValueProp.Anomaly | ZZZValueProp.Abloom
+                    , applier, null, null));
                 if (target.IsDead) break;
 
             }
@@ -76,7 +78,7 @@ namespace ZZZLib.Cmds
             return results;
         }
         /// <summary>
-        /// 紊乱 造成8伤
+        /// 紊乱 造成10伤
         /// </summary>
         public static async Task<IEnumerable<DamageResult>> Disorder(PlayerChoiceContext choiceContext, Creature target, Creature applier)
         {
@@ -86,7 +88,8 @@ namespace ZZZLib.Cmds
 
             results = results.Concat(await CreatureCmd.Damage(choiceContext,
                     target, ZZZGlobalData.DisorderDamage,
-                    ValueProp.Unpowered | ZZZValueProp.Anomaly, applier, null, null));
+                    ValueProp.Unpowered | ZZZValueProp.Anomaly |
+                    ZZZValueProp.Disorder, applier, null, null));
             await ZZZHook.TriggleAnomaly(choiceContext, ZZZKeyWord.Disorder, target, applier, results);
             return results;
         }
