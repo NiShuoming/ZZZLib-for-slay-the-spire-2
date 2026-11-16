@@ -17,7 +17,7 @@ namespace ZZZLib.Cards.Equips.WEngine
     /// </summary>
     public class BunnyBand : ZZZWEngineCardModel
     {
-        public BunnyBand() : base(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
+        public BunnyBand() : base(1, CardType.Power, CardRarity.Common, TargetType.Self)
         {
         }
 

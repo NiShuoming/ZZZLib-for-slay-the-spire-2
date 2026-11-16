@@ -20,7 +20,7 @@ namespace ZZZLib.Cards.Equips.WEngine
     /// </summary>
     public class SteamOven : ZZZWEngineCardModel
     {
-        public SteamOven() : base(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
+        public SteamOven() : base(1, CardType.Power, CardRarity.Common, TargetType.Self)
         {
         }
 
