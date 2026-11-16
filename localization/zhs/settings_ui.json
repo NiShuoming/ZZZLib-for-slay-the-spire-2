@@ -3,6 +3,10 @@
   "ZZZLIB-OPEN_EVENT.title": "开启ZZZLib的事件",
   "ZZZLIB-OPEN_EVENT.hover.desc": "关闭后不会再遇到ZZZLib的相关事件。",
   "ZZZLIB-MODIFIED_FRAIL.title": "开启对“脆弱”的修改。",
-  "ZZZLIB-MODIFIED_FRAIL.hover.desc": "开启修改之后，“脆弱”的敌人伤害-2。"
-
+  "ZZZLIB-MODIFIED_FRAIL.hover.desc": "开启修改之后，“脆弱”的敌人伤害-2。",
+  "ZZZLIB-CHARACTER_VOICE.title": "开启角色语音",
+  "ZZZLIB-CHARACTER_VOICE.hover.desc": "战斗中会播放角色语音。",
+  "ZZZLIB-VOICE_LANGUAGE.title": "语音语言",
+  "ZZZLIB-VOICE_LANGUAGE.Chinese": "中文",
+  "ZZZLIB-VOICE_LANGUAGE.Japanese": "日语"
 }

@@ -9,8 +9,7 @@
   "ZZZLIB-PARTNER.description": "When you take damage, draw a [gold]Partner[/gold] card from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold].",
 
   "ZZZLIB-STANCE.title": "Stance",
-  "ZZZLIB-STANCE.description": "Switch effect when playing a card.",
-
+  "ZZZLIB-STANCE.description": "While this card is in your [gold]Hand[/gold], whenever you play a card, upgrade or downgrade this card. Revert at the end of your turn.",
   "ZZZLIB-SECOND ENERGY.title": "The Second Energy",
   "ZZZLIB-SECOND ENERGY.description": "Character's Special Resource.",
 
@@ -24,5 +23,8 @@
   "ZZZLIB-WINDBLOOM.description": "If target have [gold]Debuff[/gold], deal [blue]2[/blue] [purple]Anomaly Damage[/purple] to All Enemies, plus [blue]2[/blue] additional Damage for each [gold]Debuff[/gold] on the target.",
 
   "ZZZLIB-DISORDER.title": "Disorder (Attribute Anomaly)",
-  "ZZZLIB-DISORDER.description": "Deal [blue]8[/blue] [purple]Anomaly Damage[/purple] to the target."
+  "ZZZLIB-DISORDER.description": "Deal [blue]10[/blue] [purple]Anomaly Damage[/purple] to the target.\n[gold]Anomaly Proficiency[/gold]'s bonus to [purple]Disorder[/purple] is doubled.",
+
+  "ZZZLIB-OVERLIMIT.title": "Over Limit",
+  "ZZZLIB-OVERLIMIT.description": "Can be upgraded up to 99 times."
 }

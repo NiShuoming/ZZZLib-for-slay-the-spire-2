@@ -72,6 +72,34 @@
 
   "FRAIL_POWER.description": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.\nIf this is an enemy, damage reduced by 2.",
   "FRAIL_POWER.smartDescription": "Gain [blue]25%[/blue] less [gold]Block[/gold] from cards for [blue]{Amount}[/blue] {Amount:plural:turn|turns}.nIf this is an enemy, damage reduced by 2.",
-  "FRAIL_POWER.title": "Frail"
+  "FRAIL_POWER.title": "Frail",
 
+
+  "SOUKAKU_P.title": "Soukaku",
+  "SOUKAKU_P.description": "Gain temporary Strength this turn.",
+  "SOUKAKU_P.smartDescription": "Gain {Amount} temporary Strength this turn.",
+
+  "BELOBOG_HEAVY_INDUSTRIES_P.title": "Belobog Heavy Industries",
+  "BELOBOG_HEAVY_INDUSTRIES_P.description": "Whenever you are attacked, apply 1 [gold]Frail[/gold] to the attacker.",
+  "BELOBOG_HEAVY_INDUSTRIES_P.smartDescription": "Whenever you are attacked, apply 1 [gold]Frail[/gold] to the attacker.",
+
+  "HSOS6_P.title": "Hollow Special Operations Section 6",
+  "HSOS6_P.description": "Whenever you play an Attack card, randomly [gold]Exhaust[/gold] a Status or Curse card from your [gold]Hand[/gold]. If a card is Exhausted this way, draw a card.",
+  "HSOS6_P.smartDescription": "Whenever you play an Attack card, randomly [gold]Exhaust[/gold] {Amount} Status or Curse card(s) from your [gold]Hand[/gold]. If cards are Exhausted this way, draw {Amount} card.",
+
+  "FROST_STAINED_STAR_A.title": "Frost-Stained Star",
+  "FROST_STAINED_STAR_A.description": "Unupgraded Attack cards deal additional damage.",
+  "FROST_STAINED_STAR_A.smartDescription": "Unupgraded Attack cards deal {Amount} additional damage.",
+
+  "FROST_STAINED_STAR_B.title": "Frost-Stained Star",
+  "FROST_STAINED_STAR_B.description": "Upgraded Attack cards deal additional damage.",
+  "FROST_STAINED_STAR_B.smartDescription": "Upgraded Attack cards deal {Amount} additional damage.",
+
+  "BRANCH_BLADE_SONG_P.title": "Branch Blade Song",
+  "BRANCH_BLADE_SONG_P.description": "Deal 35% additional damage to enemies with a certain number of Debuff stacks.",
+  "BRANCH_BLADE_SONG_P.smartDescription": "Deal 35% additional damage to enemies with more than {Amount} Debuff stacks.",
+
+  "HAILSTORM_SHRINE_P.title": "Hailstorm Shrine",
+  "HAILSTORM_SHRINE_P.description": "Area attacks deal additional damage.",
+  "HAILSTORM_SHRINE_P.smartDescription": "Area attacks deal {Amount} additional times of damage."
 }

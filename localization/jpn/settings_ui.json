@@ -1,0 +1,12 @@
+{
+  "ZZZLIB-mod_title": "ZZZLib",
+  "ZZZLIB-OPEN_EVENT.title": "ZZZLibのイベントを有効化",
+  "ZZZLIB-OPEN_EVENT.hover.desc": "無効にすると、ZZZLibに関連するイベントが発生しなくなります。",
+  "ZZZLIB-MODIFIED_FRAIL.title": "「脆弱」の仕様変更を有効化",
+  "ZZZLIB-MODIFIED_FRAIL.hover.desc": "有効にすると、「脆弱」状態の敵の与えるダメージが-2されます。",
+  "ZZZLIB-CHARACTER_VOICE.title": "キャラクターボイスを有効化",
+  "ZZZLIB-CHARACTER_VOICE.hover.desc": "戦闘中にキャラクターボイスが再生されます。",
+  "ZZZLIB-VOICE_LANGUAGE.title": "ボイス言語",
+  "ZZZLIB-VOICE_LANGUAGE.Chinese": "中国語",
+  "ZZZLIB-VOICE_LANGUAGE.Japanese": "日本語"
+}

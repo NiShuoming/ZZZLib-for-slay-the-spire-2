@@ -1,0 +1,31 @@
+{
+  "ZZZLIB-PARTNER.title": "パートナー",
+  "ZZZLIB-PARTNER.description": "ダメージを受けた時、[gold]山札[/gold]から[gold]パートナー[/gold]カードを1枚[gold]手札[/gold]に加える",
+
+  "ZZZLIB-DERIVE.title": "派生",
+  "ZZZLIB-DERIVE.description": "このカードのこのターン中のプレイ順に応じて、異なる効果を得る",
+
+  "ZZZLIB-STANCE.title": "構え",
+  "ZZZLIB-STANCE.description": "このカードが手札にある間、カードを1枚プレイするたび、このカードをアップグレードまたはダウングレードする，ターン終了後、元に戻る。",
+
+  "ZZZLIB-SECOND ENERGY.title": "第二エネルギー",
+  "ZZZLIB-SECOND ENERGY.description": "キャラクターの特殊リソース",
+
+  "ZZZLIB-ULTIMATE.title": "終結スキル",
+  "ZZZLIB-ULTIMATE.description": "各キャラクターは1枚の[pink]終結スキル[/pink]カードを持っている。[pink]終結スキル[/pink]を発動した時、[pink]終結スキル[/pink]カードの最後の効果を発動できる",
+
+  "ZZZLIB-ANOMALY.title": "異常ダメージ",
+  "ZZZLIB-ANOMALY.description": "ダメージは[gold]異常マスタリー[/gold]の影響を受ける",
+
+  "ZZZLIB-ABLOOM.title": "狂咲（属性異常）",
+  "ZZZLIB-ABLOOM.description": "対象が[gold]デバフ[/gold]を1種類持つごとに、[blue]4[/blue]点の[purple]異常ダメージ[/purple]を1回与える",
+
+  "ZZZLIB-WINDBLOOM.title": "風化（属性異常）",
+  "ZZZLIB-WINDBLOOM.description": "対象がデバフを持っている場合、すべての敵に[blue]2[/blue]点の[purple]異常ダメージ[/purple]を与え、対象が[gold]デバフ[/gold]を1種類持つごとに追加で[blue]2[/blue]点のダメージを与える",
+
+  "ZZZLIB-DISORDER.title": "紊乱（属性異常）",
+  "ZZZLIB-DISORDER.description": "対象に[blue]10[/blue]点の[purple]異常ダメージ[/purple]を与える。\n[gold]異常マスタリー[/gold]による[purple]紊乱[/purple]の増幅効果が2倍になる。",
+
+  "ZZZLIB-OVERLIMIT.title": "限界突破",
+  "ZZZLIB-OVERLIMIT.description": "最大99レベルまでアップグレード可能。"
+}

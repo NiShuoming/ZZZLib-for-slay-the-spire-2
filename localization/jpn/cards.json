@@ -1,0 +1,159 @@
+{
+  "ZZZLIB-BANYUE.title": "盤岳",
+  "ZZZLIB-BANYUE.description": "[blue]1：[/blue]{Damage:diff()}点ダメージを与え、{Block:diff()}点[gold]ブロック[/gold]を得る。\n[blue]2：[/blue]{Damage2:diff()}点ダメージを2回与える。\n[blue]3：[/blue]すべての敵に{Damage3:diff()}点ダメージを与え、[gold]弱体[/gold]を2層付与する。",
+
+  "ZZZLIB-BELLE.title": "リン",
+  "ZZZLIB-BELLE.description": "[gold]第二エネルギー[/gold]を1消費する。\n[gold]廃棄札[/gold]からカードを{Cards:diff()}枚選び、[gold]手札[/gold]に加える。",
+  "ZZZLIB-BELLE.selectionScreenPrompt": "[gold]手札[/gold]に加えるカードを{Cards:diff()}枚選ぶ。",
+
+  "ZZZLIB-BUNNY_BAND.title": "バニーリング",
+  "ZZZLIB-BUNNY_BAND.description": "[gold]ブロック[/gold]が10を超えている場合、{VigorPower:diff()}層の[gold]活力[/gold]を得る。",
+
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.title": "孤光彩雲",
+  "ZZZLIB-CLOUDCLEAVE_RADIANCE.description": "[gold]脆弱[/gold]状態の敵に追加で{Count:diff()}点ダメージを与える。",
+
+  "ZZZLIB-DIALYN.title": "ダイアリン",
+  "ZZZLIB-DIALYN.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。\n[pink]終結スキル[/pink]を発動する。",
+
+  "ZZZLIB-FREE_DOM.title": "フリーダム・ブルース",
+  "ZZZLIB-FREE_DOM.description": "{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を得る。",
+
+  "ZZZLIB-DEMORALIZED.title": "戦意喪失",
+  "ZZZLIB-DEMORALIZED.description": "自分のターン終了時、このカードが手札にある場合、[gold]第二エネルギー[/gold]を1失う。",
+
+  "ZZZLIB-HORMONE_PUNK.title": "ホルモンパンク",
+  "ZZZLIB-HORMONE_PUNK.description": "{DexterityPower:diff()}層の[gold]敏捷[/gold]を得る。",
+
+  "ZZZLIB-SWING_JAZZ.title": "スウィングジャズ",
+  "ZZZLIB-SWING_JAZZ.description": "{Turn:diff()}ターンごとに{Energy:energyIcons()}を得る。",
+
+  "ZZZLIB-JU_FUFU.title": "橘福福",
+  "ZZZLIB-JU_FUFU.description": "{CalculatedDamage:diff()}点ダメージを与える。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。\n対象が[gold]ブロック[/gold]を持つ場合、追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.title": "清き心は宝玉の如し",
+  "ZZZLIB-JADE_SOUL_FROZEN_HEART.description": "[gold]エーテルベール[/gold]による与ダメージが追加で{EtherVeil:diff()}%増加する。",
+
+  "ZZZLIB-PAN_YINHU.title": "潘引壺",
+  "ZZZLIB-PAN_YINHU.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "ZZZLIB-SPROUT.title": "メメ",
+  "ZZZLIB-SPROUT.description": "{Damage:diff()}点ダメージを与える。\n[gold]{IfUpgraded:show:飛剣+|飛剣}[/gold]を{Cards:diff()}枚[gold]手札[/gold]に加える。",
+
+  "ZZZLIB-SLICE_OF_TIME.title": "歳月の薄片",
+  "ZZZLIB-SLICE_OF_TIME.description": "同じターンにアタック、パワー、スキルカードをプレイした時、{Energy:energyIcons()}を得る。",
+
+  "ZZZLIB-STARLIGHT_ENGINE.title": "スターライトエンジン",
+  "ZZZLIB-STARLIGHT_ENGINE.description": "1回攻撃を受けるごとに、次のターン{StrengthPower}層の[gold]筋力[/gold]を得る。",
+
+  "ZZZLIB-STEAM_OVEN.title": "まな板の鯉",
+  "ZZZLIB-STEAM_OVEN.description": "エネルギーが満タンの時、アタックカードは[gold]脆弱[/gold]を1層付与する。",
+
+  "ZZZLIB-WEEPING_GEMINI.title": "双生の涙",
+  "ZZZLIB-WEEPING_GEMINI.description": "[purple]属性異常[/purple]を発動するたび、このターン中{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を得る（最大{Max:diff()}層まで）。",
+
+  "ZZZLIB-WISE.title": "アキラ",
+  "ZZZLIB-WISE.description": "{Cards:diff()}枚の{IfUpgraded:show:アップグレード済みの}[gold]パートナー[/gold]カードから1枚を選び、[gold]手札[/gold]に加える。\nこのターン、このカードはコストを支払わずにプレイできる。",
+  "ZZZLIB-WISE.selectionScreenPrompt": "[gold]手札[/gold]に加えるカードを1枚選ぶ。",
+
+  "ZZZLIB-WHITE_WATER_BALLAD.title": "純白の行歌",
+  "ZZZLIB-WHITE_WATER_BALLAD.description": "{IfUpgraded:show:[gold]エーテルベール[/gold]を1層得る。\n|}[gold]エーテルベール[/gold]を得る時、追加で1層多く得る。",
+
+  "ZZZLIB-WOODPECKER_ELECTRO.title": "キツツキエレクトロ",
+  "ZZZLIB-WOODPECKER_ELECTRO.description": "付与する[gold]弱体[/gold]の層数+1。",
+
+  "ZZZLIB-YE_SHIYUAN.title": "葉釈淵",
+  "ZZZLIB-YE_SHIYUAN.description": "自身のすべての[gold]デバフ[/gold]を{Count:diff()}層減少させる。",
+
+  "ZZZLIB-YUNKUI_SUMMIT.title": "雲嶽山",
+  "ZZZLIB-YUNKUI_SUMMIT.description": "[gold]儀玄[/gold]、[gold]潘引壺[/gold]、[gold]橘福福[/gold]、[gold]葉釈淵[/gold]をそれぞれ1枚ずつ[gold]手札[/gold]に加える。",
+
+  "ZZZLIB-YIXUAN.title": "儀玄",
+  "ZZZLIB-YIXUAN.description": "すべての敵に{CalculatedDamage:diff()}点ダメージを{Repeat:diff()}回与える。\n[gold]パートナー[/gold]カード1枚につき、追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "ZZZLIB-ZHAO.title": "照",
+  "ZZZLIB-ZHAO.description": "{EtherVeil:diff()}層の[gold]エーテルベール[/gold]を得る。\n{VigorPower:diff()}層の[gold]活力[/gold]を得る。",
+
+  "ZZZLIB-NORMA.title": "ノルムー",
+  "ZZZLIB-NORMA.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。\nカードを{Cards:diff()}枚引く。",
+
+  "ZZZLIB-STARLIGHT_BILLY.title": "スターライト・ビリー",
+  "ZZZLIB-STARLIGHT_BILLY.description": "{HpLoss:diff()}点の[gold]ライフ[/gold]を失う。\n{Damage:diff()}点ダメージを与える。\n対象の意図が[gold]攻撃[/gold]の場合、{Block:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "ZZZLIB-CISSIA.title": "シーシィア",
+  "ZZZLIB-CISSIA.description": "{PoisonPower:diff()}層の[gold]中毒[/gold]を付与する。",
+
+  "ZZZLIB-PYROIS.title": "ピュロイス",
+  "ZZZLIB-PYROIS.description": "カードを{Cards:diff()}枚引く。\n[gold]※[/gold] {VigorPower:diff()}[gold]活力[/gold]を得る。\n[red]※[/red] {Damage:diff()}点ダメージを与える。",
+
+  "ZZZLIB-LUCY.title": "ルーシー",
+  "ZZZLIB-LUCY.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n{CheerOn}ターンの間、[gold]筋力[/gold]を3得る。",
+
+  "ZZZLIB-BURNICE.title": "バーニス",
+  "ZZZLIB-BURNICE.description": "{BurningAnomalyPower:diff()}層の[gold]燃焼[/gold]を{Repeat:diff()}回付与する。",
+
+  "ZZZLIB-PROMEIA.title": "プロメイア",
+  "ZZZLIB-PROMEIA.description": "{Damage:diff()}点の[purple]異常ダメージ[/purple]を与え、[purple]狂咲[/purple]を1回発動する。",
+
+  "ZZZLIB-SUNBRINGER.title": "サンブリンガー",
+  "ZZZLIB-SUNBRINGER.description": "[gold]手札[/gold]の[gold]キーワード[/gold]{IfUpgraded:show:と[gold]エンチャント[/gold]|}を1枚コピーし、2枚目の[gold]手札[/gold]に付与する。",
+  "ZZZLIB-SUNBRINGER.selectionScreenPrompt": "1枚目のカードの[gold]キーワード[/gold]を2枚目のカードにコピーする。",
+
+  "ZZZLIB-VELINA.title": "ヴェリナ",
+  "ZZZLIB-VELINA.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n[purple]風化[/purple]を1回発動する。",
+
+  "ZZZLIB-SIGRID.title": "シグリッド",
+  "ZZZLIB-SIGRID.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。手札に加わるたび、保留されるたび、プレイされるたびに、追加で1回ダメージを与える。",
+
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.title": "目覚めし翼の聖歌",
+  "ZZZLIB-ODE_OF_RESURRECTED_WINGS.description": "カードを引く時、追加で1枚多く引く。",
+
+  "ZZZLIB-PARADISE_LOST.title": "失楽園",
+  "ZZZLIB-PARADISE_LOST.description": "[purple]属性異常[/purple]を発動した時、このターン中{StrengthPower:diff()}[gold]筋力[/gold]を得る。",
+
+  "ZZZLIB-FEATHERED_FATE.title": "契る翼の運命",
+  "ZZZLIB-FEATHERED_FATE.description": "多段攻撃のヒット数+1。",
+
+  "ZZZLIB-COVENANT_OF_DAYAT.title": "ダアト結社",
+  "ZZZLIB-COVENANT_OF_DAYAT.description": "味方1人のすべての呪いカードと状態異常カードを[gold]廃棄[/gold]する。",
+
+  "ZZZLIB-CHAIN_ATTACK.title": "連携スキル",
+  "ZZZLIB-CHAIN_ATTACK.description": "{CalculatedDamage:diff()}点ダメージを与える。\n他のプレイヤーがダメージを与えるたび、このカードのダメージ+{ExtraDamage:diff()}。",
+
+
+
+  "ZZZLIB-SOUKAKU.title": "蒼角",
+  "ZZZLIB-SOUKAKU.description": "このターン中、{StrengthPower:diff()}層の[gold]筋力[/gold]を獲得する。\nカードを{Cards:diff()}枚引く。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。",
+
+  "ZZZLIB-CUNNING_HARES.title": "狡兎屋",
+  "ZZZLIB-CUNNING_HARES.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。\n{VulnerablePower:diff()}層の[gold]弱体[/gold]を付与する。",
+
+  "ZZZLIB-BELOBOG_HEAVY_INDUSTRIES.title": "白祇重工",
+  "ZZZLIB-BELOBOG_HEAVY_INDUSTRIES.description": "{Block:diff()}点[gold]ブロック[/gold]を獲得する。\n攻撃を受けた時、攻撃者に{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。",
+
+  "ZZZLIB-VICTORIA_HOUSEKEEPING_CO.title": "ヴィクトリア家政",
+  "ZZZLIB-VICTORIA_HOUSEKEEPING_CO.description": "{CalculatedDamage:diff()}点ダメージを与える。\n[gold]ケエスト[/gold]カード1枚につき、追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "ZZZLIB-SONS_OF_CALYDON.title": "カリュドーンの子",
+  "ZZZLIB-SONS_OF_CALYDON.description": "{PlatingPower:diff()}層の[gold]プレート[/gold]を獲得する。\n{AnomalyProficiency:diff()}層の[gold]異常マスタリー[/gold]を獲得する。",
+
+  "ZZZLIB-HSOS6.title": "対ホロウ特別行動部第六課",
+  "ZZZLIB-HSOS6.description": "自分のターン開始時、[gold]手札[/gold]から{Cards:diff()}枚選び、アップグレードする。",
+
+  "ZZZLIB-TSUKISHIRO_YANAGI.title": "月城柳",
+  "ZZZLIB-TSUKISHIRO_YANAGI.description": "{Damage:diff()}点の[purple]流明属性ダメージ[/purple]を与える。\n{Disorder:diff()}回[purple]紊乱[/purple]を誘発する。\n{IfUpgraded:show:{WeakPower:diff()}層の[gold]脱力[/gold]|{VulnerablePower:diff()}層の[gold]弱体[/gold]}を付与する。",
+
+  "ZZZLIB-CISRT.title": "刑事特別捜査班",
+  "ZZZLIB-CISRT.description": "{CalculatedDamage:diff()}点ダメージを与える。\n対象の[gold]ブロック[/gold]を追加ダメージに変換する。\n対象の[gold]人工物[/gold]を追加攻撃回数に変換する|。",
+
+  "ZZZLIB-ASABA_HARUMASA.title": "浅羽悠真",
+  "ZZZLIB-ASABA_HARUMASA.description": "{IfUpgraded:show:{damage2:diff()}点の[purple]流明属性ダメージ[/purple]を{Repeat:diff()}回与える|{Damage:diff()}点ダメージを与える}。\n休息所に入るたびにアップグレードする。",
+
+  "ZZZLIB-FROST_STAINED_STAR.title": "霜染めの寒星",
+  "ZZZLIB-FROST_STAINED_STAR.description": "{IfUpgraded:show:|未}アップグレードのアタックカードが追加で{damageUp:diff()}点ダメージを与える。",
+
+  "ZZZLIB-BRANCH_BLADE_SONG.title": "折枝の剣歌",
+  "ZZZLIB-BRANCH_BLADE_SONG.description": "デバフ層数が{debuff:diff()}以上の敵に追加で{damageUp:diff()}%のダメージを与える。",
+
+  "ZZZLIB-HAILSTORM_SHRINE.title": "霰落星殿",
+  "ZZZLIB-HAILSTORM_SHRINE.description": "全体攻撃が追加で1回ダメージを与える。"
+}

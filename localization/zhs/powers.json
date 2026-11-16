@@ -71,9 +71,35 @@
 
   "WOODPECKER_ELECTRO_POWER.title": "啄木鸟电音",
   "WOODPECKER_ELECTRO_POWER.description": "给予的[gold]易伤[/gold]层数增加。",
-  "WOODPECKER_ELECTRO_POWER.smartDescription": "给予的[gold]易伤[/gold]层数增加{Amount}层。"
+  "WOODPECKER_ELECTRO_POWER.smartDescription": "给予的[gold]易伤[/gold]层数增加{Amount}层。",
 
 
+  "SOUKAKU_P.title": "苍角",
+  "SOUKAKU_P.description": "本回合获得临时力量。",
+  "SOUKAKU_P.smartDescription": "本回合获得{Amount}临时力量。",
 
+  "BELOBOG_HEAVY_INDUSTRIES_P.title": "白祇重工",
+  "BELOBOG_HEAVY_INDUSTRIES_P.description": "受到攻击时，给予攻击者1层[gold]脆弱[/gold]。",
+  "BELOBOG_HEAVY_INDUSTRIES_P.smartDescription": "受到攻击时，给予攻击者1层[gold]脆弱[/gold]。",
+
+  "HSOS6_P.title": "对空六科",
+  "HSOS6_P.description": "打出攻击牌时，随机消耗手牌中的状态牌或诅咒牌，成功消耗时抽牌。",
+  "HSOS6_P.smartDescription": "打出攻击牌时，随机消耗手牌中的{Amount}张状态牌或诅咒牌，成功消耗时抽{Amount}张牌。",
+
+  "FROST_STAINED_STAR_A.title": "霜染寒星",
+  "FROST_STAINED_STAR_A.description": "未升级的攻击牌额外造成伤害。",
+  "FROST_STAINED_STAR_A.smartDescription": "未升级的攻击牌额外造成{Amount}点伤害。",
+
+  "FROST_STAINED_STAR_B.title": "霜染寒星",
+  "FROST_STAINED_STAR_B.description": "升级的攻击牌额外造成伤害。",
+  "FROST_STAINED_STAR_B.smartDescription": "升级的攻击牌额外造成{Amount}点伤害。",
+
+  "BRANCH_BLADE_SONG_P.title": "折枝剑歌",
+  "BRANCH_BLADE_SONG_P.description": "对debuff达到一定层数的敌人额外造成35%伤害。",
+  "BRANCH_BLADE_SONG_P.smartDescription": "对debuff层数大于{Amount}的敌人额外造成35%伤害。",
+
+  "HAILSTORM_SHRINE_P.title": "霰落星殿",
+  "HAILSTORM_SHRINE_P.description": "群体攻击会额外造成伤害。",
+  "HAILSTORM_SHRINE_P.smartDescription": "群体攻击会额外造成{Amount}次伤害。"
 
 }

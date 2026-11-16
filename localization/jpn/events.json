@@ -1,0 +1,38 @@
+{
+  "ZZZLIB-BOX_GALAXY.title": "BOXギャラクシー",
+  "ZZZLIB-BOX_GALAXY.pages.INITIAL.description": "[gold]音動機[/gold]を販売している店だが、店員はずっと自分が[gold]おもちゃ[/gold]を売っていると思い込んでいる。",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.title": "音動機を購入",
+  "BOX_GALAXY.pages.INITIAL.options.BUY_ENGINE.description": "{Gold}[gold]ゴールド[/gold]を消費し、{Cards}枚の[gold]音動機[/gold]から1枚選んでデッキに加える。",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.selectionScreenPrompt": "デッキに加えるカードを1枚選ぶ。",
+  "ZZZLIB-BOX_GALAXY.pages.BUY_ENGINE.description": "[gold]音動機[/gold]が放つ[jitter]律動[/jitter]が、あなたの能力を高めている。",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.title": "リサイクル",
+  "BOX_GALAXY.pages.INITIAL.options.RECYCLE.description": "初期カード以外のカードを1枚削除し、{Recycle}[gold]ゴールド[/gold]を獲得する。",
+  "ZZZLIB-BOX_GALAXY.pages.RECYCLE.description": "店員はこのカードを買い取り、なかなか良い値段をつけてくれた。",
+
+  "ZZZLIB-HOLLOW_ZERO.title": "ホロウ",
+  "ZZZLIB-HOLLOW_ZERO.pages.INITIAL.description": "[sine]ホロウ[/sine]は[purple]エーテルエネルギー[/purple]によって引き起こされる[jitter][red]超自然災害[/red][/jitter]であり、絶えず拡大する球状の領域として現れる。\nその内部の時空間は[jitter][red]極度に紊乱[/red][/jitter]しており、未知の危険に満ちているため、一般人にとってはほぼ絶望的な環境である。",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.title": "迂回する",
+  "HOLLOW_ZERO.pages.INITIAL.options.SHORTCUT.description": "{Damage}点のダメージを受け、[blue]1[/blue]枚のカードを削除する。",
+  "ZZZLIB-HOLLOW_ZERO.pages.SHORTCUT.description": "[sine]ホロウ[/sine]の縁であっても、ここは非常に[red]危険[/red]だ。",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.title": "ホロウの深部へ",
+  "HOLLOW_ZERO.pages.INITIAL.options.ENTER.description": "[red]侵食[/red]を1枚獲得し、ランダムな[gold]通常レリック[/gold]を[blue]{Relic}[/blue]個獲得する。",
+  "ZZZLIB-HOLLOW_ZERO.pages.ENTER.description": "[purple]エーテルエネルギー[/purple]が[jitter][red]あなたの身体を侵食した[/red][/jitter]。しかし、あなたは[sine]ホロウ[/sine]からいくつか良いものを見つけた。\n[sine]危険はチャンスでもある[/sine]。",
+
+  "ZZZLIB-HIA.title": "HIAクラブ",
+  "ZZZLIB-HIA.pages.INITIAL.description": "[gold]HIA[/gold]の下部組織で、ヤヌス区にある。一般市民に開放された[gold]VRシミュレーションシステム[/gold]を運営している。\n24時間営業で、[blue]宿泊[/blue]と[blue]朝食[/blue]を提供している。",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.title": "実戦シミュレーション室",
+  "HIA.pages.INITIAL.options.COMBAT_SIMULATION.description": "[gold]通常敵[/gold]と戦闘し、追加で[blue]1[/blue]組の[gold]カード報酬[/gold]を獲得する。",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.title": "専門チャレンジ室",
+  "HIA.pages.INITIAL.options.EXPERT_CHALLENGE.description": "[red]エリート敵[/red]と戦闘し、追加で[blue]1[/blue]個の[gold]レリック[/gold]を獲得する。",
+
+  "ZZZLIB-RANDOM_PLAY.title": "Random Play",
+  "ZZZLIB-RANDOM_PLAY.pages.INITIAL.description": "リンとアキラが営むレンタルビデオ店で、[gold]ディスク[/gold]のレンタルサービスを提供している。",
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.title": "[gold]ビデオ[/gold]をレンタル",
+  "RANDOM_PLAY.pages.INITIAL.options.BUY_DRIVE_DISC.description": "[blue]3[/blue]枚の[gold]ドライブディスク[/gold]から1枚選んでデッキに加える。",
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.selectionScreenPrompt": "デッキに加えるカードを1枚選ぶ。",
+  "ZZZLIB-RANDOM_PLAY.pages.BUY_DRIVE_DISC.description": "ビデオのレンタルとは言ったものの、店長がいくつかの[gold]ドライブディスク[/gold]を推薦してくれた。",
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.title": "偶然の出会い",
+  "RANDOM_PLAY.pages.INITIAL.options.PARTNER_ENCOUNTER.description": "[blue]3[/blue]枚の[gold]パートナー[/gold]カードから1枚選んで手札に加える。",
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.description": "ていうか、来る人が多すぎない？ビデオってそんなに人気なのかな？\nそれとも、みんな[sine]店長目当て[/sine]なのか？",
+  "ZZZLIB-RANDOM_PLAY.pages.PARTNER_ENCOUNTER.selectionScreenPrompt": "手札に加えるカードを1枚選ぶ。"
+}

@@ -1,0 +1,105 @@
+{
+  "ANOMALY_PROFICIENCY.title": "異常マスタリー",
+  "ANOMALY_PROFICIENCY.description": "[purple]異常ダメージ[/purple]を増加させる",
+  "ANOMALY_PROFICIENCY.smartDescription": "[purple]異常ダメージ[/purple]を{Amount}点増加させる",
+
+  "ANOMALY_PROFICIENCY_ONE_TURN.title": "一時的な異常マスタリー",
+  "ANOMALY_PROFICIENCY_ONE_TURN.description": "このターン中、[gold]異常マスタリー[/gold]を獲得する",
+  "ANOMALY_PROFICIENCY_ONE_TURN.smartDescription": "このターン中、{Amount}層の[gold]異常マスタリー[/gold]を獲得する",
+
+  "BUNNY_BAND_POWER.title": "バニーリング",
+  "BUNNY_BAND_POWER.description": "[gold]ブロック[/gold]が10を超えている時、[gold]活力[/gold]を獲得する",
+  "BUNNY_BAND_POWER.smartDescription": "[gold]ブロック[/gold]が10を超えている時、{Amount}層の[gold]活力[/gold]を獲得する",
+
+  "BURNING_ANOMALY_POWER.title": "燃焼",
+  "BURNING_ANOMALY_POWER.description": "ターン終了時、[purple]異常ダメージ[/purple]を受ける",
+  "BURNING_ANOMALY_POWER.smartDescription": "ターン終了時、{Amount}点の[purple]異常ダメージ[/purple]を受ける",
+
+  "CHEER_ON.title": "ファイト！",
+  "CHEER_ON.description": "[blue]3[/blue]層の[gold]筋力[/gold]を獲得する",
+  "CHEER_ON.smartDescription": "[blue]{StrengthPower}[/blue]層の[gold]筋力[/gold]を獲得する",
+
+  "CLOUDCLEAVE_RADIANCE_POWER.title": "孤光彩雲",
+  "CLOUDCLEAVE_RADIANCE_POWER.description": "[gold]脆弱[/gold]状態の敵に追加でダメージを与える",
+  "CLOUDCLEAVE_RADIANCE_POWER.smartDescription": "[gold]脆弱[/gold]状態の敵に追加で{Amount}点ダメージを与える",
+
+  "ETHER_VEIL.title": "エーテルベール",
+  "ETHER_VEIL.description": "[gold]エーテルベール[/gold]状態の時、[gold]アタックカード[/gold]による与ダメージが[blue]35%[/blue]増加する",
+  "ETHER_VEIL.smartDescription": "[gold]エーテルベール[/gold]状態の時、[gold]アタックカード[/gold]による与ダメージが[blue]{DamageA:diff()}%[/blue]増加する",
+
+  "FEATHERED_FATE_POWER.title": "契る翼の運命",
+  "FEATHERED_FATE_POWER.description": "多段攻撃のヒット数が増加する",
+  "FEATHERED_FATE_POWER.smartDescription": "多段攻撃のヒット数+{Amount}",
+
+  "FRAIL_POWER.title": "脆弱",
+  "FRAIL_POWER.description": "[gold]脆弱[/gold]状態の時、カードから得る[gold]ブロック[/gold]値が[blue]25%[/blue]減少する\n敵が[gold]脆弱[/gold]状態の場合、与えるダメージ-2",
+  "FRAIL_POWER.smartDescription": "[blue]{Amount}[/blue]ターンの間、カードから得る[gold]ブロック[/gold]値が[blue]25%[/blue]減少する\n敵が[gold]脆弱[/gold]状態の場合、与えるダメージ-2",
+
+  "JADE_SOUL_FROZEN_HEART_POWER.title": "清き心は宝玉の如し",
+  "JADE_SOUL_FROZEN_HEART_POWER.description": "[gold]エーテルベール[/gold]による与ダメージが追加で増加する",
+  "JADE_SOUL_FROZEN_HEART_POWER.smartDescription": "[gold]エーテルベール[/gold]による与ダメージが追加で{Amount}%増加する",
+
+  "ODE_OF_RESURRECTED_WINGS_POWER.title": "目覚めし翼の聖歌",
+  "ODE_OF_RESURRECTED_WINGS_POWER.description": "カードを引く時、追加で1枚多く引く",
+  "ODE_OF_RESURRECTED_WINGS_POWER.smartDescription": "カードを引く時、追加で{Amount}枚多く引く",
+
+  "PARADISE_LOST_POWER.title": "失楽園",
+  "PARADISE_LOST_POWER.description": "[purple]属性異常[/purple]を発動した時、1ターンの間[gold]筋力[/gold]を獲得する",
+  "PARADISE_LOST_POWER.smartDescription": "[purple]属性異常[/purple]を発動した時、1ターンの間{Amount}層の[gold]筋力[/gold]を獲得する",
+
+  "SLICE_OF_TIME_POWER.title": "歳月の薄片",
+  "SLICE_OF_TIME_POWER.description": "同じターンにアタック、スキル、パワーカードをプレイした時、エネルギーを獲得する",
+  "SLICE_OF_TIME_POWER.smartDescription": "同じターンにアタック、スキル、パワーカードをプレイした時、{Amount:energyIcons()}を獲得する",
+
+  "STARLIGHT_ENGINE_POWER.title": "スターライトエンジン",
+  "STARLIGHT_ENGINE_POWER.description": "1回攻撃を受けるごとに、次のターン[gold]筋力[/gold]を獲得する",
+  "STARLIGHT_ENGINE_POWER.smartDescription": "1回攻撃を受けるごとに、次のターン{Amount}層の[gold]筋力[/gold]を獲得する",
+
+  "STEAM_OVEN_POWER.title": "まな板の鯉",
+  "STEAM_OVEN_POWER.description": "エネルギーが満タンの時、アタックカードが対象に[gold]脆弱[/gold]を付与する",
+  "STEAM_OVEN_POWER.smartDescription": "エネルギーが満タンの時、アタックカードが対象に{Amount}層の[gold]脆弱[/gold]を付与する",
+
+  "SWING_JAZZ_POWER.title": "スウィングジャズ",
+  "SWING_JAZZ_POWER.description": "2ターンごとに、エネルギーを獲得する",
+  "SWING_JAZZ_POWER.smartDescription": "2ターンごとに、{Amount:energyIcons()}を獲得する",
+
+  "WEEPING_GEMINI_POWER.title": "双生の涙",
+  "WEEPING_GEMINI_POWER.description": "[purple]属性異常[/purple]を発動するたび、このターン中[gold]異常マスタリー[/gold]を獲得する",
+  "WEEPING_GEMINI_POWER.smartDescription": "[purple]属性異常[/purple]を発動するたび、このターン中1層の[gold]異常マスタリー[/gold]を獲得する（最大{Amount}層まで）",
+
+  "WHITE_WATER_BALLAD_POWER.title": "純白の行歌",
+  "WHITE_WATER_BALLAD_POWER.description": "[gold]エーテルベール[/gold]を獲得する時、追加で1層多く獲得する",
+  "WHITE_WATER_BALLAD_POWER.smartDescription": "[gold]エーテルベール[/gold]を獲得する時、追加で{Amount}層多く獲得する",
+
+  "WOODPECKER_ELECTRO_POWER.title": "キツツキエレクトロ",
+  "WOODPECKER_ELECTRO_POWER.description": "付与する[gold]弱体[/gold]の層数が増加する",
+  "WOODPECKER_ELECTRO_POWER.smartDescription": "付与する[gold]弱体[/gold]の層数+{Amount}",
+
+  "SOUKAKU_P.title": "蒼角",
+  "SOUKAKU_P.description": "このターン中、一時的な[gold]筋力[/gold]を獲得する。",
+  "SOUKAKU_P.smartDescription": "このターン中、{Amount}層の一時的な[gold]筋力[/gold]を獲得する。",
+
+  "BELOBOG_HEAVY_INDUSTRIES_P.title": "白祇重工",
+  "BELOBOG_HEAVY_INDUSTRIES_P.description": "攻撃を受けた時、攻撃者に1層の[gold]脆弱[/gold]を付与する。",
+  "BELOBOG_HEAVY_INDUSTRIES_P.smartDescription": "攻撃を受けた時、攻撃者に1層の[gold]脆弱[/gold]を付与する。",
+
+  "HSOS6_P.title": "対ホロウ特別行動部第六課",
+  "HSOS6_P.description": "アタックカードをプレイした時、[gold]手札[/gold]から状態異常カードまたは呪いカードをランダムに1枚[gold]廃棄[/gold]する。成功した場合、カードを1枚引く。",
+  "HSOS6_P.smartDescription": "アタックカードをプレイした時、[gold]手札[/gold]から状態異常カードまたは呪いカードをランダムに{Amount}枚[gold]廃棄[/gold]する。成功した場合、カードを{Amount}枚引く。",
+
+  "FROST_STAINED_STAR_A.title": "霜染めの寒星",
+  "FROST_STAINED_STAR_A.description": "未アップグレードのアタックカードが追加でダメージを与える。",
+  "FROST_STAINED_STAR_A.smartDescription": "未アップグレードのアタックカードが追加で{Amount}点ダメージを与える。",
+
+  "FROST_STAINED_STAR_B.title": "霜染めの寒星",
+  "FROST_STAINED_STAR_B.description": "アップグレード済みのアタックカードが追加でダメージを与える。",
+  "FROST_STAINED_STAR_B.smartDescription": "アップグレード済みのアタックカードが追加で{Amount}点ダメージを与える。",
+
+  "BRANCH_BLADE_SONG_P.title": "折枝の剣歌",
+  "BRANCH_BLADE_SONG_P.description": "デバフ層数が一定以上の敵に追加で35%のダメージを与える。",
+  "BRANCH_BLADE_SONG_P.smartDescription": "デバフ層数が{Amount}以上の敵に追加で35%のダメージを与える。",
+
+  "HAILSTORM_SHRINE_P.title": "霰落星殿",
+  "HAILSTORM_SHRINE_P.description": "全体攻撃が追加でダメージを与える。",
+  "HAILSTORM_SHRINE_P.smartDescription": "全体攻撃が追加で{Amount}回ダメージを与える。"
+}

@@ -83,7 +83,7 @@
   "ZZZLIB-CISSIA.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
 
   "ZZZLIB-PYROIS.title": "Pyrois",
-  "ZZZLIB-PYROIS.description": "Draw {Cards:diff()} cards.\n[gold]※[/gold] Gain {VigorPower:diff()} [gold]Vigor[/gold].\n[red]※[/red] Deal {Damage:diff()} damage.",
+  "ZZZLIB-PYROIS.description": "Draw {Cards:diff()} cards.\n{IfUpgraded:show:Gain {VigorPower:diff()} [gold]Vigor[/gold]|Deal {Damage:diff()} damage}.",
 
   "ZZZLIB-LUCY.title": "Lucy",
   "ZZZLIB-LUCY.description": "Deal {Damage:diff()} damage to All Enemies.\nGain 3 [gold]Strength[/gold] for {CheerOn} turns.",
@@ -117,6 +117,42 @@
   "ZZZLIB-COVENANT_OF_DAYAT.description": "[gold]Exhaust[/gold] all Curse and Status cards from 1 player.",
 
   "ZZZLIB-CHAIN_ATTACK.title": "Chain Attack",
-  "ZZZLIB-CHAIN_ATTACK.description": "Deal {CalculatedDamage:diff()} damage.\nEach time another player deals Unblocked damage, increase damage by {ExtraDamage:diff()}."
+  "ZZZLIB-CHAIN_ATTACK.description": "Deal {CalculatedDamage:diff()} damage.\nEach time another player deals Unblocked damage, increase damage by {ExtraDamage:diff()}.",
+
+
+  "ZZZLIB-SOUKAKU.title": "Soukaku",
+  "ZZZLIB-SOUKAKU.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold] this turn.\nDraw {Cards:diff()} cards.\nApply {FrailPower:diff()} [gold]Frail[/gold].",
+
+  "ZZZLIB-CUNNING_HARES.title": "Cunning Hares",
+  "ZZZLIB-CUNNING_HARES.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nApply {VulnerablePower:diff()} [gold]Vulnerable[/gold].",
+
+  "ZZZLIB-BELOBOG_HEAVY_INDUSTRIES.title": "Belobog Heavy Industries",
+  "ZZZLIB-BELOBOG_HEAVY_INDUSTRIES.description": "Gain {Block:diff()} [gold]Block[/gold].\nWhenever you are attacked, apply {FrailPower:diff()} [gold]Frail[/gold] to the attacker.",
+
+  "ZZZLIB-VICTORIA_HOUSEKEEPING_CO.title": "Victoria Housekeeping Co.",
+  "ZZZLIB-VICTORIA_HOUSEKEEPING_CO.description": "Deal {CalculatedDamage:diff()} damage.\nDeal {ExtraDamage:diff()} additional damage for each [gold]Quest[/gold] card you have.",
+
+  "ZZZLIB-SONS_OF_CALYDON.title": "Sons of Calydon",
+  "ZZZLIB-SONS_OF_CALYDON.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].\nGain {AnomalyProficiency:diff()} [gold]Anomaly Proficiency[/gold].",
+
+  "ZZZLIB-HSOS6.title": "H.S.O.S.6",
+  "ZZZLIB-HSOS6.description": "At the start of your turn, choose and upgrade {Cards:diff()} card in your [gold]Hand[/gold].",
+  "ZZZLIB-TSUKISHIRO_YANAGI.title": "Tsukishiro Yanagi",
+  "ZZZLIB-TSUKISHIRO_YANAGI.description": "Deal {Damage:diff()} [purple]Anomaly Damage[/purple].\nTrigger [purple]Disorder[/purple] {Disorder:diff()} time(s).\nApply {IfUpgraded:show:{WeakPower:diff()} [gold]Weak[/gold]|{VulnerablePower:diff()} [gold]Vulnerable[/gold]}.",
+
+  "ZZZLIB-CISRT.title": "CISRT",
+  "ZZZLIB-CISRT.description": "Deal {CalculatedDamage:diff()} damage.\nConvert the target's [gold]Block[/gold] into additional damage, and convert the target's [gold]Artificial[/gold] into additional attacks.",
+
+  "ZZZLIB-ASABA_HARUMASA.title": "Asaba Harumasa",
+  "ZZZLIB-ASABA_HARUMASA.description": "Deal {IfUpgraded:show:{damage2:diff()} [purple]Anomaly Damage[/purple] {Repeat:diff()} times|{Damage:diff()} damage}.\nUpgrade this card whenever you visit a Rest Site.",
+
+  "ZZZLIB-FROST_STAINED_STAR.title": "Frost-Stained Star",
+  "ZZZLIB-FROST_STAINED_STAR.description": "{IfUpgraded:show:|Unupgraded} Attack cards deal {damageUp:diff()} additional damage.",
+
+  "ZZZLIB-BRANCH_BLADE_SONG.title": "Branch & Blade Song",
+  "ZZZLIB-BRANCH_BLADE_SONG.description": "Deal {damageUp:diff()}% additional damage to enemies with more than {debuff:diff()} Debuff stacks.",
+
+  "ZZZLIB-HAILSTORM_SHRINE.title": "Hailstorm Shrine",
+  "ZZZLIB-HAILSTORM_SHRINE.description": "Area attacks deal 1 additional instance of damage."
 
 }
