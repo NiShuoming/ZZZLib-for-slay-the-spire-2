@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace ZZZLib.Powers
 {
     /// <summary>
-    /// 每回合精通
+    /// 1回合精通
     /// </summary>
     public class AnomalyProficiencyOneTurn : PowerModel
     {

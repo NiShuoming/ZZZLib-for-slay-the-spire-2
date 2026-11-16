@@ -27,6 +27,7 @@ namespace ZZZLib.Powers
         {
             if (props.HasFlag(ZZZValueProp.Anomaly) && dealer != null && dealer == Owner)
             {
+                if(props.HasFlag(ZZZValueProp.Disorder)) return 2 * Amount;
                 return Amount;
             }
             return 0;
